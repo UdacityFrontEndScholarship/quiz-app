@@ -112,6 +112,9 @@ Here are links and resources to get you started on Pull requests.
   *  [https://medium.com/server-side-swift-and-more/a-simple-guide-to-creating-a-github-pull-request-48fee0afd015](https://medium.com/server-side-swift-and-more/a-simple-guide-to-creating-a-github-pull-request-48fee0afd015) 
    *  [https://github.com/freeCodeCamp/how-to-contribute-to-open-source/blob/master/CONTRIBUTING.md](https://github.com/freeCodeCamp/how-to-contribute-to-open-source/blob/master/CONTRIBUTING.md) 
 
+## Project Setup Instructions
+  _Will be added soon_
+
 
 ## Styleguides
 
