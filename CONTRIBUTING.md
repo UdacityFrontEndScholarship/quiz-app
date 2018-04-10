@@ -27,7 +27,6 @@ The following is a set of guidelines for contributing to the SkillUp Quiz projec
   * [Code Styleguide](#code-styleguide)
 
 [Additional Notes](#additional-notes)
-  * [Issue and Pull Request Labels](#issue-and-pull-request-labels)
 
 ## Code of Conduct
 
