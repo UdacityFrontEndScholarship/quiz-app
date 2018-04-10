@@ -1,4 +1,4 @@
-Reporting Bugs
+
 # Contributing to SkillUP
 
 :+1::tada: First off, thanks for taking the time to contribute! :tada::+1:
@@ -15,6 +15,8 @@ The following is a set of guidelines for contributing to the SkillUp Quiz projec
   * [Git & Github](#git-and-github)
   * [Bootstrap 4](#bootstrap)
   * [React](#react)
+
+[Project Setup Instructions](#project-setup-instructions)
 
 [Design Descisions](#design-decisions)
 
@@ -108,6 +110,10 @@ A pull request is a way to contribute to our project, you clone our project, mak
 Here are links and resources to get you started on Pull requests.
   *  [https://medium.com/server-side-swift-and-more/a-simple-guide-to-creating-a-github-pull-request-48fee0afd015](https://medium.com/server-side-swift-and-more/a-simple-guide-to-creating-a-github-pull-request-48fee0afd015) 
    *  [https://github.com/freeCodeCamp/how-to-contribute-to-open-source/blob/master/CONTRIBUTING.md](https://github.com/freeCodeCamp/how-to-contribute-to-open-source/blob/master/CONTRIBUTING.md) 
+
+## Project Setup Instructions
+  _Will be added soon_
+
 
 ## Styleguides
 
