@@ -17,6 +17,7 @@ The following is a set of guidelines for contributing to the SkillUp Quiz projec
   * [React](#react)
 
 [Project Setup Instructions](#project-setup-instructions)
+  * _Will be added soon_
 
 [Design Descisions](#design-decisions)
 
@@ -42,7 +43,7 @@ This project and everyone participating in it is/are maintained by the SkillUp U
   * @Fayaz
 ## I don't want to read this whole thing I just have a question!!!
 
-> **Note:** Please don't file an issue to ask a question.You'll get faster results by using our slack handles above.
+> **Note:** Please don't file an issue to ask a question.You'll get faster results by just contacting us on our slack handles above.
 
 
 ## What should I know before I get started?
@@ -110,9 +111,6 @@ A pull request is a way to contribute to our project, you clone our project, mak
 Here are links and resources to get you started on Pull requests.
   *  [https://medium.com/server-side-swift-and-more/a-simple-guide-to-creating-a-github-pull-request-48fee0afd015](https://medium.com/server-side-swift-and-more/a-simple-guide-to-creating-a-github-pull-request-48fee0afd015) 
    *  [https://github.com/freeCodeCamp/how-to-contribute-to-open-source/blob/master/CONTRIBUTING.md](https://github.com/freeCodeCamp/how-to-contribute-to-open-source/blob/master/CONTRIBUTING.md) 
-
-## Project Setup Instructions
-  _Will be added soon_
 
 
 ## Styleguides
