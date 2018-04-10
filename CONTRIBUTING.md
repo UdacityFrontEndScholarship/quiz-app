@@ -3,7 +3,7 @@
 
 :+1::tada: First off, thanks for taking the time to contribute! :tada::+1:
 
-The following is a set of guidelines for contributing to the SkillUp Quiz project which is hosted on GitHub. These are mostly guidelines, not rules. Use your best judgment, and feel free to propose changes to this document in a pull request.
+The following is a set of guidelines for contributing to the SkillUP Quiz project which is hosted on GitHub. These are mostly guidelines, not rules. Use your best judgment, and feel free to propose changes to this document in a pull request.
 
 #### Table Of Contents
 
@@ -16,14 +16,14 @@ The following is a set of guidelines for contributing to the SkillUp Quiz projec
   * [Bootstrap 4](#bootstrap)
   * [React](#react)
 
-[Project Setup Instructions](#project-setup-instructions)
-  * _Will be added soon_
-
 [Design Descisions](#design-decisions)
 
 [How Can I Contribute?](#how-can-i-contribute)
   * [Reporting Bugs](#reporting-bugs)
   * [Pull Requests](#pull-requests)
+
+[Project Setup Instructions](#project-setup-instructions)
+  * _Will be added soon_
 
 [Styleguides](#styleguides)
   * [Git Commit Messages](#git-commit-messages)
@@ -33,7 +33,7 @@ The following is a set of guidelines for contributing to the SkillUp Quiz projec
 
 ## Code of Conduct
 
-This project and everyone participating in it is/are maintained by the SkillUp Udacity members. By participating, you are expected to uphold this code. In case, you need to contact us, tag anyone of us in the Udacity Frontend Scholars Slack channel, below are our slack handles
+This project and everyone participating in it is/are maintained by the SkillUP Udacity members. By participating, you are expected to uphold this code. In case, you need to contact us, tag anyone of us in the Udacity Frontend Scholars Slack channel, below are our slack handles
   * @ezioda004
   * @Sunny Puri
   * @Vanisha
@@ -64,9 +64,10 @@ React JS for the behavior of this site
   *  [React](https://reactjs.org/) 
   * [React Tutorial](https://www.youtube.com/playlist?list=PL6gx4Cwl9DGBuKtLgPR_zWYnrwv-JllpA)
 
-### Design Decisions
 
-We will follow a straight forward design language, its good, if you go through the current code by either forking or cloning the repository. We strongly suggest to stick with the current design guidelines.
+## Design Decisions
+
+We will follow a straight forward design language. Its good, if you go through the current code by either forking or cloning the repository. We strongly suggest to stick with the current design guidelines. We will be updating this guide with more detailed guidelines & boilerplate code if possible.
 
 ## How Can I Contribute?
 
@@ -112,9 +113,9 @@ Here are links and resources to get you started on Pull requests.
   *  [https://medium.com/server-side-swift-and-more/a-simple-guide-to-creating-a-github-pull-request-48fee0afd015](https://medium.com/server-side-swift-and-more/a-simple-guide-to-creating-a-github-pull-request-48fee0afd015) 
    *  [https://github.com/freeCodeCamp/how-to-contribute-to-open-source/blob/master/CONTRIBUTING.md](https://github.com/freeCodeCamp/how-to-contribute-to-open-source/blob/master/CONTRIBUTING.md) 
 
+
 ## Project Setup Instructions
   _Will be added soon_
-
 
 ## Styleguides
 
@@ -132,3 +133,4 @@ _To be Updated shortly_
 We will be available in case if you are stuck somewhere, feel free to reach out to us, if any assistance is needed.
 
 Happy coding!
+  
