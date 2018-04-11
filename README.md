@@ -42,7 +42,7 @@ For knowing more about these you can refer to our guidelines in which we have de
 
 * [Dashboard Page](https://github.com/lalitmee/quiz-app/blob/master/src/assets/images/Dashboard.jpg?raw=true)
 
-- [Dashboard Page](https://github.com/lalitmee/quiz-app/blob/master/src/assets/images/Challenge%20Page.jpg?raw=true)
+- [Challenge Page](https://github.com/lalitmee/quiz-app/blob/master/src/assets/images/Challenge%20Page.jpg?raw=true)
 
 ### Data Model
 
