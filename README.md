@@ -1,5 +1,7 @@
 # Quiz-App
 
+![logo](https://github.com/parulbindal/quiz-app/blob/master/src/assets/images/skillup%20logo.jpg?raw=true)
+
 [![GitHub forks](https://img.shields.io/github/forks/badges/shields.svg?style=social&label=Fork)](https://github.com/UdacityFrontEndScholarship/quiz-app/network)
 [![GitHub stars](https://img.shields.io/github/stars/badges/shields.svg?style=social&label=Stars)](https://github.com/UdacityFrontEndScholarship/quiz-app/stargazers)
 [![GitHub watchers](https://img.shields.io/github/watchers/badges/shields.svg?style=social&label=Watch)](https://github.com/UdacityFrontEndScholarship/quiz-app/watchers)
