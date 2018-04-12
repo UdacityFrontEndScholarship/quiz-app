@@ -1,4 +1,6 @@
-# Quiz-App
+# SkillUP
+
+![logo](https://github.com/parulbindal/quiz-app/blob/master/src/assets/images/skillup%20logo.jpg?raw=true)
 
 [![GitHub issues](https://img.shields.io/github/issues/iiitv/algos.svg)](https://github.com/UdacityFrontEndScholarship/quiz-app/issues)
 [![GitHub pull requests](https://img.shields.io/github/issues-pr/cdnjs/cdnjs.svg)](https://github.com/UdacityFrontEndScholarship/quiz-app/pulls)

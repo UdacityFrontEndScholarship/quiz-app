@@ -11,8 +11,8 @@ The following is a set of guidelines for contributing to the SkillUP Quiz projec
 [I don't want to read this whole thing, I just have a question!!!](#i-dont-want-to-read-this-whole-thing-i-just-have-a-question)
 [What should I know before I get started?](#what-should-i-know-before-i-get-started)
 
-* [Git & Github](#git-and-github)
-* [Bootstrap 4](#bootstrap)
+* [Git & Github](#git-&-github)
+* [Bootstrap-4](#bootstrap-4)
 * [React](#react)
   [Design Descisions](#design-decisions)
   [How Can I Contribute?](#how-can-i-contribute)
