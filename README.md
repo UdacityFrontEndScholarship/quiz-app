@@ -17,6 +17,7 @@
 * [Technologies](#technologies)
   * [Mockups](#mockups)
   * [Data Model](#data-model)
+  * [ER Diagram](#er-diagram)
 * [Collaborators](#collaborators)
   * [Moderator](#moderator)
   * [Co-Moderators](#co-moderators)
@@ -51,6 +52,10 @@ For knowing more about these you can refer to our guidelines in which we have de
 ### Data Model
 
 We have also prepare a data model for our application to show the data flow in the application so that anybody can understand and work on the application very easliy. [Here](https://www.lucidchart.com/documents/edit/d6d11adb-7d10-45bd-a5e0-997f20a19ba4/0?shared=true&) is the link to the data model.
+
+### ER Diagram
+
+Entity relation diagram is a good pictorial representation of the  database design for an application. This helps in designing backend easily. [Here](https://www.lucidchart.com/invitations/accept/4959f428-f905-44ff-9a82-1cd55f6cf960) is the link to the ER diagram.
 
 ## Collaborators
 
