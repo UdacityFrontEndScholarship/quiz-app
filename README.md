@@ -1,11 +1,13 @@
-# Quiz-App
+# SkillUP
 
 ![logo](https://github.com/parulbindal/quiz-app/blob/master/src/assets/images/skillup%20logo.jpg?raw=true)
 
+[![GitHub issues](https://img.shields.io/github/issues/iiitv/algos.svg)](https://github.com/UdacityFrontEndScholarship/quiz-app/issues)
+[![GitHub pull requests](https://img.shields.io/github/issues-pr/cdnjs/cdnjs.svg)](https://github.com/UdacityFrontEndScholarship/quiz-app/pulls)
 [![GitHub forks](https://img.shields.io/github/forks/badges/shields.svg?style=social&label=Fork)](https://github.com/UdacityFrontEndScholarship/quiz-app/network)
 [![GitHub stars](https://img.shields.io/github/stars/badges/shields.svg?style=social&label=Stars)](https://github.com/UdacityFrontEndScholarship/quiz-app/stargazers)
 [![GitHub watchers](https://img.shields.io/github/watchers/badges/shields.svg?style=social&label=Watch)](https://github.com/UdacityFrontEndScholarship/quiz-app/watchers)
-[![contributors](https://img.shields.io/github/contributors/Naereen/StrapDown.js.svg)](https://github.com/UdacityFrontEndScholarship/quiz-app/graphs/contributors)
+[![GitHub contributors](https://img.shields.io/github/contributors/cdnjs/cdnjs.svg)](https://github.com/UdacityFrontEndScholarship/quiz-app/graphs/contributors)
 
 > _Most good programmers do programming not because they expect to get paid or get adulation by the public, but because it is fun to program._ - [Linus Torvalds](https://www.brainyquote.com/quotes/linus_torvalds_367382)
 
@@ -38,13 +40,15 @@ For knowing more about these you can refer to our guidelines in which we have de
 
 ### Mockups
 
-* [SignUp Page](https://github.com/lalitmee/quiz-app/blob/master/src/assets/images/Sign%20Up%20Page.jpg?raw=true)
+* [SignUp Page](https://github.com/UdacityFrontEndScholarship/quiz-app/blob/master/src/assets/images/Sign%20Up%20Page.jpg?raw=true)
 
-- [SignIn Page](https://github.com/lalitmee/quiz-app/blob/master/src/assets/images/Sign%20In%20Page.jpg?raw=true)
+- [SignIn Page](https://github.com/UdacityFrontEndScholarship/quiz-app/blob/master/src/assets/images/Sign%20In%20Page.jpg?raw=true)
 
-* [Dashboard Page](https://github.com/lalitmee/quiz-app/blob/master/src/assets/images/Dashboard.jpg?raw=true)
+* [Dashboard Page](https://github.com/UdacityFrontEndScholarship/quiz-app/blob/master/src/assets/images/Dashboard.jpg?raw=true)
 
-- [Challenge Page](https://github.com/lalitmee/quiz-app/blob/master/src/assets/images/Challenge%20Page.jpg?raw=true)
+- [Challenge Page](https://github.com/UdacityFrontEndScholarship/quiz-app/blob/master/src/assets/images/Challenge%20Page.jpg?raw=true)
+
+---
 
 ### Data Model
 
