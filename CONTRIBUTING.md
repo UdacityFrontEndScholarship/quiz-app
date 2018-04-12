@@ -12,7 +12,7 @@ The following is a set of guidelines for contributing to the SkillUP Quiz projec
 
 [What should I know before I get started?](#what-should-i-know-before-i-get-started)
 
-* [Git & Github](#git-&-github)
+* [Github](#github)
 * [Bootstrap-4](#bootstrap-4)
 * [React](#react)
   [Design Descisions](#design-decisions)
@@ -43,7 +43,7 @@ This project and everyone participating in it is/are maintained by the SkillUP U
 
 ## What should I know before I get started?
 
-### Git & Github
+### Github
 
 This is the key thing you need to know before hopping onboard, we strongly suggest you go through the below resources if you are not aware of Git & Github principles.
 
@@ -171,7 +171,7 @@ The first step to contributing to the code base is to set up your project.
 
 ##### For Linux Systems:
 
- Install git via your native package management system: ::
+Install git via your native package management system: ::
 
     $ yum install git
 
@@ -195,18 +195,19 @@ The name should be your actual name, not your GitHub username.
 #### Create Github Account
 
 Now you should have a github account for contributing to the code base. If you don't have one already, then sign up [here](https://github.com/signup/free)
- 
+
 ### Fork the Project
 
-Create your own *fork* of the project (if you have not yet) and go to project repository:
 
-  * https://github.com/UdacityFrontEndScholarship/quiz-app
- 
+Create your own _fork_ of the project (if you have not yet). Go to the project repository:
+
+* https://github.com/UdacityFrontEndScholarship/quiz-app
+
 and click the “Fork” button.
 
 Now, you have your own repository for the project. If your GitHub username is `nickname` then the address of the forked project will look something like:
 
-  * https://github.com/nickname/quiz-app
+* https://github.com/nickname/quiz-app
 
 ### Clone the Project
 

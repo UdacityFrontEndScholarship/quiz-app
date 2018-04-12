@@ -15,13 +15,13 @@
 
 * [Introduction](#introduction)
 * [Technologies](#technologies)
-  * [Mockups](#mockups)
-  * [Data Model](#data-model)
+    * [Mockups](#mockups)
+    * [Data Model](#data-model)
 * [Collaborators](#collaborators)
-  * [Moderator](#moderator)
-  * [Co-Moderators](#co-moderators)
+    * [Moderator](#moderator)
+    * [Co-Moderators](#co-moderators)
 * [Guidelines](#guidelines)
-  * [Contributing](#contributing)
+    * [Contributing](#contributing)
 * [Thanksgiving](#thanksgiving)
 
 ## Introduction
@@ -47,8 +47,6 @@ For knowing more about these you can refer to our guidelines in which we have de
 * [Dashboard Page](https://github.com/UdacityFrontEndScholarship/quiz-app/blob/master/src/assets/images/Dashboard.jpg?raw=true)
 
 - [Challenge Page](https://github.com/UdacityFrontEndScholarship/quiz-app/blob/master/src/assets/images/Challenge%20Page.jpg?raw=true)
-
----
 
 ### Data Model
 
