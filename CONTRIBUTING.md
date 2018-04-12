@@ -12,8 +12,14 @@ The following is a set of guidelines for contributing to the SkillUP Quiz projec
 
 [What should I know before I get started?](#what-should-i-know-before-i-get-started)
 
+
+
+* [Git & Github](#git-and-github)
+* [Bootstrap 4](#bootstrap)
+
 * [Github](#github)
 * [Bootstrap-4](#bootstrap-4)
+
 * [React](#react)
   [Design Descisions](#design-decisions)
   [How Can I Contribute?](#how-can-i-contribute)
@@ -216,6 +222,91 @@ code from the original repository::
 
     $ git clone https://github.com/UdacityFrontEndScholarship/quiz-app.git
     $ cd quiz-app
+
+[![git_clone_npm_install.jpg](https://s26.postimg.cc/rt0m60kix/git_clone_npm_install.jpg)](https://postimg.cc/image/4esmu32lh/)
+
+
+### Install the Dependencies Required by the Project Locally
+
+After `git clone` has finished cloning, enter the `quiz-app` directory that was created by using the following command:
+(If you are already in `quiz-app` directory then skip this step).
+
+	$ cd quiz-app
+
+#### Installing Dependencies
+
+Now to install the dependencies on your local machine, insert the following code and press enter:
+
+	$ npm install	
+
+This might take a while depending on your internet connection. Give it some time to install all the dependencies.
+
+After all the dependencies have been installed successfully, you will see the message as in the image above that ends with:
+`added (some number) packages in (some number)s`
+
+Now you are all set to work on the project locally. To open the project development environment, run:
+
+	$ npm start
+
+[![npm_start.jpg](https://s26.postimg.cc/i8gzj4nh5/npm_start.jpg)](https://postimg.cc/image/4esmu2uvp/)
+
+Now just wait a few seconds for the compilation to finish and it will automatically create a local server on your machine and also open up the `index.html` of the project in your default browser. This also has features like **live reload** so it will automatically refresh the page when you save your work. **Just make sure to save all of the files you might have edited or you will get compiling errors.**
+
+You can **right click** on the `quiz-app` folder and open it in your favourite text editor to start contributing :)
+
+## How to Sync your Fork with the Main Project Repository (Upstream)?
+
+### Configuring a remote for a fork
+
+Before you can sync, you will first need to add the source of upstream repository where your local project can check for new commits/changes to the original project. To do this, open Git Bash from your `quiz-app` folder and run:
+
+	$ git remote add upstream (link of the original project/upstream without brackets)
+
+	In this case:
+
+	$ git remote add upstream https://github.com/UdacityFrontEndScholarship/quiz-app.git
+
+[![remote_add_upstream.jpg](https://s26.postimg.cc/hk3jma71l/remote_add_upstream.jpg)](https://postimg.cc/image/ke6ozq97p/)
+
+If you run into any problems, please check this link below:
+
+  * https://help.github.com/articles/configuring-a-remote-for-a-fork/
+
+### Syncing a fork
+
+Your fork is now ready to sync with the upstream repository for any new commits/changes. Now to actually sync the fork, open Git Bash from your local project directory and run:
+
+	git fetch upstream
+
+[![git_fetch_upstream.jpg](https://s26.postimg.cc/bj5up7s55/git_fetch_upstream.jpg)](https://postimg.cc/image/jonwndgdx/)
+
+Then run this to check out your fork's local master branch:
+
+	git checkout master
+
+Now merge changes from upstream repository into your master branch:
+
+	git merge upstream/master
+
+[![git_merge_upstream_master.jpg](https://s26.postimg.cc/wsth07lc9/git_merge_upstream_master.jpg)](https://postimg.cc/image/55grm405h/)
+
+You might see file changes, insertions and deletions. But if your local branch did not have any unique commits, it will instead perform a **fast-forward** as in the image.
+
+You may also follow the GitHub guide below for the same process.
+
+  * https://help.github.com/articles/syncing-a-fork/
+
+Now you will need to `push` these changes to your GitHub fork by running:
+
+	git push (your fork's .git link without brackets)
+
+[![git_pushto_fork.jpg](https://s26.postimg.cc/qgebqj2w9/git_pushto_fork.jpg)](https://postimg.cc/image/tn8va5nc5/)
+
+Here is the GitHub guide for this if you would like to follow that instead:
+
+  * https://help.github.com/articles/pushing-to-a-remote/
+
+First you saved (fetched) the latest changes/commits from the original/upstream repository to your local project and then synced (pushed) those local changes to your forked repository on GitHub.
 
 ## Styleguides
 
