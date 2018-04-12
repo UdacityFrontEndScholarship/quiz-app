@@ -9,10 +9,16 @@ The following is a set of guidelines for contributing to the SkillUP Quiz projec
 [Code of Conduct](#code-of-conduct)
 
 [I don't want to read this whole thing, I just have a question!!!](#i-dont-want-to-read-this-whole-thing-i-just-have-a-question)
+
 [What should I know before I get started?](#what-should-i-know-before-i-get-started)
 
+<<<<<<< HEAD
 * [Git & Github](#git-and-github)
 * [Bootstrap 4](#bootstrap)
+=======
+* [Github](#github)
+* [Bootstrap-4](#bootstrap-4)
+>>>>>>> upstream/master
 * [React](#react)
   [Design Descisions](#design-decisions)
   [How Can I Contribute?](#how-can-i-contribute)
@@ -36,15 +42,15 @@ This project and everyone participating in it is/are maintained by the SkillUP U
 * @lalitmee
 * @Fayaz
 
-## I don't want to read this whole thing I just have a question!!!
+## I don't want to read this whole thing, I just have a question!!!
 
 > **Note:** Please don't file an issue to ask a question.You'll get faster results by just contacting us on our slack handles above.
 
 ## What should I know before I get started?
 
-### Git & Github
+### Github
 
-This is the key thing you need to know before hopping on board, we strongly suggest you go through the below resources if you are not aware of Git & Github principles.
+This is the key thing you need to know before hopping onboard, we strongly suggest you go through the below resources if you are not aware of Git & Github principles.
 
 * [Intro to Git & Github for beginners](https://medium.com/@abhishekj/an-intro-to-git-and-github-1a0e2c7e3a2f)
 * [How to contribute to Open Source](https://github.com/freeCodeCamp/how-to-contribute-to-open-source/blob/master/CONTRIBUTING.md)
@@ -65,22 +71,22 @@ React JS for the behavior of this site
 
 ## Design Decisions
 
-We will follow a straight forward design language. Its good, if you go through the current code by either forking or cloning the repository. We strongly suggest to stick with the current design guidelines. We will be updating this guide with more detailed guidelines & boilerplate code if possible.
+We will follow a straight forward design approach. Its good, if you go through the current code by either forking or cloning the repository. We strongly suggest you to stick with the current design guidelines. We will be updating this guide with more detailed guidelines & boilerplate code, if possible.
 
 ## How Can I Contribute?
 
 ### Reporting Bugs
 
-This section guides you through submitting a bug report for SkillUP. Following these guidelines helps maintainers and the community understand your report :pencil:, reproduce the behavior :computer: :computer:, and find related reports :mag_right:.
+This section guides you through submitting a bug report for SkillUP. Following these guidelines helps maintainers and the community members in understanding your report :pencil:, reproduce the behavior :computer: :computer:, and find related reports :mag_right:.
 
 Before creating bug reports, please check [this list](#before-submitting-a-bug-report) as you might find out that you don't need to create one. When you are creating a bug report, please [include as many details as possible](#how-do-i-submit-a-good-bug-report). Fill out [the required template](#bug-issue-template), the information it asks for helps us resolve issues faster.
 
-> **Note:** If you find a **Closed** issue that seems like it is the same thing that you're experiencing, open a new issue and include a link to the original issue in the body of your new one.
+> **Note:** If you find a **Closed** issue that seems similar to the one you're experiencing, you should open a new issue and include a link to the original issue in the body of your new one.
 
 #### Before Submitting A Bug Report
 
-* Make sure it is actually a bug before you create a issue
-* Note down the trail, on how the bug occurred.
+* Make sure it is actually a bug before you create an issue
+* Note down the trail, on how the bug was found.
 * Do a small search and check if this issue has already been reported.
 
 #### How Do I Submit A (Good) Bug Report?
@@ -90,12 +96,12 @@ Bugs are tracked as [GitHub issues](https://guides.github.com/features/issues/).
 Explain the problem and include additional details to help maintainers reproduce the problem:
 
 * **Use a clear and descriptive title** for the issue to identify the problem.
-* **Describe the exact steps which reproduce the problem** in as many details as possible.
+* **Describe the exact steps which reproduce the problem** in as much detail as possible.
 * **Provide specific examples to demonstrate the steps**. Include links to files or GitHub projects, or copy/pasteable snippets, which you use in those examples. If you're providing snippets in the issue, use [Markdown code blocks](https://help.github.com/articles/markdown-basics/#multiple-lines).
 * **Describe the behavior you observed after following the steps** and point out what exactly is the problem with that behavior.
 * **Explain which behavior you expected to see instead and why.**
 
-* **Are you able to reproduce the issue?** If not, provide details about how often the problem happens and under which conditions it normally happens.
+* **Are you able to reproduce the issue?** If not, provide details on how often the problem occurs and under which conditions.
 
 #### Bug Issue Template
 
@@ -123,14 +129,14 @@ Most important part of the pull requests are the messages which you put as the c
 We would like you to put your commit messages in the form which is described below:
 
 ```
-Title of the pull request(if you want, you can include file name to be more specific in this)
+Title of the pull request(if you want, you can include file name to be more specific)
 
-summary of the changes(you should mention the changes which you did in the pull request)
+Summary of the changes(you should mention the changes which you did in the pull request)
 
 Fixes or Closes <url of the issue>(Fixes and closes will be chosen by you according to the type of issue)
 ```
 
-Here is an example of the good commit for your convenience:
+Here is an example of a good commit message, for your convenience:
 
 ```
 configure.py: Fix docstring typo
@@ -154,7 +160,7 @@ Here is an example of the bad commit:
 Fixing docstring typo in the which was in spelling of whether.
 ```
 
-* This will take a lot of time for code maintainers to investiage that where was the change to have a look on the changes you made.
+* This will take a lot of time for code maintainers to investigate the change and to locate the files in which changes were made.
 
 _You can see that the commit is more readable and understandable in the good commit example._
 
@@ -170,7 +176,7 @@ The first step to contributing to the code base is to set up your project.
 
 ##### For Linux Systems:
 
- Install git via your native package management system: ::
+Install git via your native package management system: ::
 
     $ yum install git
 
@@ -194,18 +200,19 @@ The name should be your actual name, not your GitHub username.
 #### Create Github Account
 
 Now you should have a github account for contributing to the code base. If you don't have one already, then sign up [here](https://github.com/signup/free)
- 
+
 ### Fork the Project
 
-Create your own *fork* of the project (if you have not yet). Go to the project repository:
 
-  * https://github.com/UdacityFrontEndScholarship/quiz-app
- 
+Create your own _fork_ of the project (if you have not yet). Go to the project repository:
+
+* https://github.com/UdacityFrontEndScholarship/quiz-app
+
 and click the “Fork” button.
 
-Now you have your own repository for the project. If your username in GitHub is `nickname` then the address of the forked project will look something like:
+Now, you have your own repository for the project. If your GitHub username is `nickname` then the address of the forked project will look something like:
 
-  * https://github.com/nickname/quiz-app
+* https://github.com/nickname/quiz-app
 
 ### Clone the Project
 
@@ -304,7 +311,7 @@ First you saved (fetched) the latest changes/commits from the original/upstream 
 
 ### Git Commit Messages
 
-* Proper & meaningful commit messages are the best way to keep code and organized.
+* Proper & meaningful commit messages are the best way to keep code maintainable and organized.
 * Always write a commit message, even if its for small change.
 
 ### Code Styleguide
