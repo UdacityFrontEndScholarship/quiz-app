@@ -57,7 +57,7 @@ We have also prepare a data model for our application to show the data flow in t
 
 ### ER Diagram
 
-Entity relation diagram is a good pictorial representation of the  database design for an application. This helps in an designing backend easily. [Here](https://www.lucidchart.com/invitations/accept/4959f428-f905-44ff-9a82-1cd55f6cf960) is the link to the ER diagram
+Entity relation diagram is a good pictorial representation of the  database design for an application. This helps in designing backend easily. [Here](https://www.lucidchart.com/invitations/accept/4959f428-f905-44ff-9a82-1cd55f6cf960) is the link to the ER diagram
 
 ## Collaborators
 
