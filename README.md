@@ -1,13 +1,13 @@
 # SkillUP
 
-![logo](https://github.com/parulbindal/quiz-app/blob/master/src/assets/images/skillup%20logo.jpg?raw=true)
+[![GitHub issues](https://img.shields.io/github/issues/UdacityFrontEndScholarship/quiz-app.svg)](https://github.com/UdacityFrontEndScholarship/quiz-app/issues)
+[![GitHub pull requests](https://img.shields.io/github/issues-pr/UdacityFrontEndScholarship/quiz-app.svg)](https://github.com/UdacityFrontEndScholarship/quiz-app/pulls)
+[![GitHub forks](https://img.shields.io/github/forks/UdacityFrontEndScholarship/quiz-app.svg?style=social&label=Fork)](https://github.com/UdacityFrontEndScholarship/quiz-app/network)
+[![GitHub stars](https://img.shields.io/github/stars/UdacityFrontEndScholarship/quiz-app.svg?style=social&label=Stars)](https://github.com/UdacityFrontEndScholarship/quiz-app/stargazers)
+[![GitHub watchers](https://img.shields.io/github/watchers/UdacityFrontEndScholarship/quiz-app.svg?style=social&label=Watch)](https://github.com/UdacityFrontEndScholarship/quiz-app/watchers)
+[![GitHub contributors](https://img.shields.io/github/contributors/UdacityFrontEndScholarship/quiz-app.svg)](https://github.com/UdacityFrontEndScholarship/quiz-app/graphs/contributors)
 
-[![GitHub issues](https://img.shields.io/github/issues/iiitv/algos.svg)](https://github.com/UdacityFrontEndScholarship/quiz-app/issues)
-[![GitHub pull requests](https://img.shields.io/github/issues-pr/cdnjs/cdnjs.svg)](https://github.com/UdacityFrontEndScholarship/quiz-app/pulls)
-[![GitHub forks](https://img.shields.io/github/forks/badges/shields.svg?style=social&label=Fork)](https://github.com/UdacityFrontEndScholarship/quiz-app/network)
-[![GitHub stars](https://img.shields.io/github/stars/badges/shields.svg?style=social&label=Stars)](https://github.com/UdacityFrontEndScholarship/quiz-app/stargazers)
-[![GitHub watchers](https://img.shields.io/github/watchers/badges/shields.svg?style=social&label=Watch)](https://github.com/UdacityFrontEndScholarship/quiz-app/watchers)
-[![GitHub contributors](https://img.shields.io/github/contributors/cdnjs/cdnjs.svg)](https://github.com/UdacityFrontEndScholarship/quiz-app/graphs/contributors)
+![logo](https://github.com/parulbindal/quiz-app/blob/master/src/assets/images/skillup%20logo.jpg?raw=true)
 
 > _Most good programmers do programming not because they expect to get paid or get adulation by the public, but because it is fun to program._ - [Linus Torvalds](https://www.brainyquote.com/quotes/linus_torvalds_367382)
 
@@ -19,10 +19,10 @@
   * [Data Model](#data-model)
   * [ER Diagram](#er-diagram)
 * [Collaborators](#collaborators)
-    * [Moderator](#moderator)
-    * [Co-Moderators](#co-moderators)
+  * [Moderator](#moderator)
+  * [Co-Moderators](#co-moderators)
 * [Guidelines](#guidelines)
-    * [Contributing](#contributing)
+  * [Contributing](#contributing)
 * [Thanksgiving](#thanksgiving)
 
 ## Introduction
