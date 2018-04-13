@@ -1,7 +1,8 @@
+/* removes sticky footer and makes the page scrollable */
+
 footer {
     background: #333;
     color: white;
-    position: fixed;
-    bottom: 0;
     width: 100%;
+    height: 100%;
 }
