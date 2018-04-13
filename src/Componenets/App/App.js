@@ -8,18 +8,65 @@ import "./App.css";
 
 class App extends Component {
   render() {
+
+      
     return (
       <div className="App">
         {/* Main App component that renders */}
         <Header />
         <main>
-          <p>
-            Lorem ipsum dolor sit amet, id vis altera senserit, cum at novum elitr sententiae. Commune electram deseruisse in duo, at vel vivendum elaboraret. No mel minim quaeque torquatos, nam id semper everti ullamcorper. Ridens tacimates senserit an est, pri error habemus honestatis ne. Eius reprehendunt necessitatibus ad est, cum dolorem moderatius in, purto splendide eos ad. Per perfecto quaestio te, justo iuvaret voluptatibus mei ne, ei mel labitur invidunt oportere.
-            Ferri dicat salutandi per in. Vim percipit perfecto invenire no, mei reque soleat pertinacia in. No ridens euripidis qui. Mazim integre ad eum, congue iracundia scripserit id per, no ius sonet disputando. Cum vulputate deterruisset id, at justo posidonium vel, malis solet conceptam te pro. Duo minimum reprimique concludaturque ne, ubique salutandi mel no, vituperata posidonium sed in.
-            Consul nullam dignissim at vel, pro no petentium accommodare necessitatibus. Offendit vivendum cum in. Nonumes officiis has in, illud legendos at eum, vix reque impedit indoctum ea. Novum instructior ad mei. Sea meis aeque democritum ex, dicunt virtute reformidans cum ad. Ei quidam graeco definiebas usu.
-            Cum te ipsum albucius adversarium, cu nulla adipisci deterruisset vis, id quo sonet indoctum praesent. Id possit essent elaboraret pro, ea sea perfecto ocurreret, agam elit elaboraret usu et. Est ad inani nonumy accommodare. Et sed deleniti placerat. Mea at probo tantas, sit case prima molestiae ad.
-            At bonorum constituto vim. Vis ea graeco persius voluptua, ceteros epicurei perfecto vix cu. Et scripta ancillae accusata eam, eum ea omnes munere hendrerit. Apeirian sensibus his in, ea utroque appareat nam. Posse graeci nec ut, duis verear antiopam in vel, laboramus consetetur te ius.
-          </p>
+        <div ClassName="maincontainer ">
+        <h2 className="text-center" style={{margin: '1em'}}><strong>QUIZ APP</strong></h2>
+
+         <div className="container">
+            <div className="row justify-content-center">
+                <div className="col-md-6 col-md-offset-4">
+                      <div className="card">
+                          <div className="card-header">
+                            <div className="container">
+                              <div className="row">
+                                  <div className="col-xs-6 col-md-6 col-lg-6 signup text-center" id="signup-link">
+                                      
+                                       <a href="#signup" className="active" id="signup"><strong>Sign Up</strong></a>
+                                       
+                                  </div>
+                                  <div className="col-xs-6 col-md-6 col-lg-6 signin text-center" id="signin-link">
+
+                                       <a href="#signin" id="signin"><strong>Sign In</strong></a>
+
+                                  </div>
+                               </div>
+                             </div>
+                           </div>
+                           <div className="card-body">
+               
+               <div className="container"> 
+                <div className="row justify-content-center">
+                <div className="form-container col-md-10">                 
+              <form onsubmit="" action="" method="POST">  
+              <div className="form-group">
+                <input type="text" name="email" placeholder="Your Email ID" className="form-input form-control"/>
+                
+              </div>
+              <div className="form-group">
+                <input type="password" name="password" placeholder="Password" className="form-input form-control"/>
+                
+              </div>  
+              <div className="form-group">
+                <input type="submit" className="form-btn btn btn-primary btn-block" value="Sign In" name="btn-login"/>
+              </div>
+                  
+                  
+              </form>
+              </div>
+              </div>
+              </div>
+                           </div>
+                        </div>
+                      </div>
+             </div>
+             </div>
+          </div>
         </main>
         <Footer />
       </div>
