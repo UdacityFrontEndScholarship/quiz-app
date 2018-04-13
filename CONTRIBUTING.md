@@ -8,7 +8,7 @@ The following is a set of guidelines for contributing to the SkillUP Quiz projec
 
 [Code of Conduct](#code-of-conduct)
 
-[I don't want to read this whole thing, I just have a question!!!](#i-dont-want-to-read-this-whole-thing-i-just-have-a-question)
+[I don't want to read this whole thing, I just have a question!!!](#i-don't-want-to-read-this-whole-thing-i-just-have-a-question)
 
 [What should I know before I get started?](#what-should-i-know-before-i-get-started)
 
@@ -98,7 +98,7 @@ Explain the problem and include additional details to help maintainers reproduce
 
 * **Use a clear and descriptive title** for the issue to identify the problem.
 * **Describe the exact steps which reproduce the problem** in as much detail as possible.
-* **Provide specific examples to demonstrate the steps**. Include links to files or GitHub projects, or copy/pasteable snippets, which you use in those examples. If you're providing snippets in the issue, use [Markdown code blocks](https://help.github.com/articles/markdown-basics/#multiple-lines).
+* **Provide specific examples to demonstrate the steps**. Include links to files or GitHub projects, or copy/pasteable snippets, which you use in those examples. If you're providing snippets on the issue, use [Markdown code blocks](https://help.github.com/articles/markdown-basics/#multiple-lines).
 * **Describe the behavior you observed after following the steps** and point out what exactly is the problem with that behavior.
 * **Explain which behavior you expected to see instead and why.**
 
@@ -150,22 +150,22 @@ Fixes https://github.com/coala/coala/issues/4018
 
 * configure.py: Fix docstring typo: Describe the change in
   maximum of 60 characters.
-* This fixes.. ..whether.: Describe the reasoning of your changes
-  in maximum of 80 characters per line.
+* This fixes.. ..whether.: Describe the reasoning behind your changes
+  in a maximum of 80 characters per line.
 * Closes https://github.com/coala/coala/issues/7971: Mention the URL
   of the issue it closes or fixes.
 
 Here is an example of the bad commit:
 
 ```
-Fixing docstring typo in the which was in spelling of whether.
+Fixing docstring typo in the which was in the spelling of whether.
 ```
 
 * This will take a lot of time for code maintainers to investigate the change and to locate the files in which changes were made.
 
 _You can see that the commit is more readable and understandable in the good commit example._
 
-**So we would request you to follow our commit guidelines.** By following this standard we want to have maintability of the code.
+**So we would request you to follow our commit guidelines.** By following this standard we want to have maintainability of the code.
 
 ## Project Setup Instructions
 
@@ -200,7 +200,7 @@ The name should be your actual name, not your GitHub username.
 
 #### Create Github Account
 
-Now you should have a github account for contributing to the code base. If you don't have one already, then sign up [here](https://github.com/signup/free)
+Now you should have a GitHub account for contributing to the code base. If you don't have one already, then sign up [here](https://github.com/signup/free)
 
 ### Fork the Project
 
@@ -231,13 +231,13 @@ code from the original repository::
 After `git clone` has finished cloning, enter the `quiz-app` directory that was created by using the following command:
 (If you are already in `quiz-app` directory then skip this step).
 
-	$ cd quiz-app
+    $ cd quiz-app
 
 #### Installing Dependencies
 
 Now to install the dependencies on your local machine, insert the following code and press enter:
 
-	$ npm install	
+    $ npm install    
 
 This might take a while depending on your internet connection. Give it some time to install all the dependencies.
 
@@ -246,25 +246,25 @@ After all the dependencies have been installed successfully, you will see the me
 
 Now you are all set to work on the project locally. To open the project development environment, run:
 
-	$ npm start
+    $ npm start
 
 [![npm_start.jpg](https://s26.postimg.cc/i8gzj4nh5/npm_start.jpg)](https://postimg.cc/image/4esmu2uvp/)
 
 Now just wait a few seconds for the compilation to finish and it will automatically create a local server on your machine and also open up the `index.html` of the project in your default browser. This also has features like **live reload** so it will automatically refresh the page when you save your work. **Just make sure to save all of the files you might have edited or you will get compiling errors.**
 
-You can **right click** on the `quiz-app` folder and open it in your favourite text editor to start contributing :)
+You can **right click** on the `quiz-app` folder and open it in your favorite text editor to start contributing :)
 
 ## How to Sync your Fork with the Main Project Repository (Upstream)?
 
 ### Configuring a remote for a fork
 
-Before you can sync, you will first need to add the source of upstream repository where your local project can check for new commits/changes to the original project. To do this, open Git Bash from your `quiz-app` folder and run:
+Before you can sync, you will first need to add the source of the upstream repository where your local project can check for new commits/changes to the original project. To do this, open Git Bash from your `quiz-app` folder and run:
 
-	$ git remote add upstream (link of the original project/upstream without brackets)
+    $ git remote add upstream (link to the original project/upstream without brackets)
 
-	In this case:
+    In this case:
 
-	$ git remote add upstream https://github.com/UdacityFrontEndScholarship/quiz-app.git
+    $ git remote add upstream https://github.com/UdacityFrontEndScholarship/quiz-app.git
 
 [![remote_add_upstream.jpg](https://s26.postimg.cc/hk3jma71l/remote_add_upstream.jpg)](https://postimg.cc/image/ke6ozq97p/)
 
@@ -276,17 +276,17 @@ If you run into any problems, please check this link below:
 
 Your fork is now ready to sync with the upstream repository for any new commits/changes. Now to actually sync the fork, open Git Bash from your local project directory and run:
 
-	git fetch upstream
+    git fetch upstream
 
 [![git_fetch_upstream.jpg](https://s26.postimg.cc/bj5up7s55/git_fetch_upstream.jpg)](https://postimg.cc/image/jonwndgdx/)
 
 Then run this to check out your fork's local master branch:
 
-	git checkout master
+    git checkout master
 
-Now merge changes from upstream repository into your master branch:
+Now merge changes from the upstream repository into your master branch:
 
-	git merge upstream/master
+    git merge upstream/master
 
 [![git_merge_upstream_master.jpg](https://s26.postimg.cc/wsth07lc9/git_merge_upstream_master.jpg)](https://postimg.cc/image/55grm405h/)
 
@@ -298,7 +298,7 @@ You may also follow the GitHub guide below for the same process.
 
 Now you will need to `push` these changes to your GitHub fork by running:
 
-	git push (your fork's .git link without brackets)
+    git push (your fork's .git link without brackets)
 
 [![git_pushto_fork.jpg](https://s26.postimg.cc/qgebqj2w9/git_pushto_fork.jpg)](https://postimg.cc/image/tn8va5nc5/)
 
@@ -313,7 +313,7 @@ First you saved (fetched) the latest changes/commits from the original/upstream 
 ### Git Commit Messages
 
 * Proper & meaningful commit messages are the best way to keep code maintainable and organized.
-* Always write a commit message, even if its for small change.
+* Always write a commit message, even if it's for small change.
 
 ### Code Styleguide
 
@@ -321,6 +321,7 @@ _To be Updated shortly_
 
 ## Additional Notes
 
-We will be available in case if you are stuck somewhere, feel free to reach out to us, if any assistance is needed.
+We will be available in case if you are stuck somewhere, feel free to reach out to us if any assistance is needed.
 
 Happy coding!
+
