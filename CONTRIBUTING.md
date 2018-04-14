@@ -14,9 +14,6 @@ The following is a set of guidelines for contributing to the SkillUP Quiz projec
 
 
 
-* [Git & Github](#git-and-github)
-* [Bootstrap 4](#bootstrap)
-
 * [Github](#github)
 * [Bootstrap-4](#bootstrap-4)
 
