@@ -8,38 +8,3 @@
 	padding: 0;
 }
 
-
-
-#signup,#signin{
-	color: black;
-	font-size: 2em;
-	text-decoration: none;
-}
-
-.signup{
-	background-color: white;
-}
-
-
-.form-container{
-	width: 100%;
-	box-sizing: content-box;
-	margin-top: 5%;
-	
-}
-
-
-.form-input{
-       border-radius: 0%;
-       box-shadow: 1px 1px 1px #aaaaaa;
-}
-
-
-.form-btn{
-	  border-radius: 0%;
-	  background-color: #1a8cff;
-}
-
-.form-btn:hover{
-	  background-color: #0066cc;
-}

@@ -49,6 +49,11 @@ For knowing more about these you can refer to our guidelines in which we have de
 
 - [Challenge Page](https://github.com/UdacityFrontEndScholarship/quiz-app/blob/master/src/assets/images/Challenge%20Page.jpg?raw=true)
 
+* [SignUp Page Detailed](https://github.com/parulbindal/quiz-app/blob/master/src/assets/images/Sign%20Up%20Page%20Detailed.jpg?raw=true)
+
+- [SignIn Page Detailed](https://github.com/parulbindal/quiz-app/blob/master/src/assets/images/Sign%20In%20Page%20Detailed.jpg?raw=true)
+
+
 ### Data Model
 
 We have also prepare a data model for our application to show the data flow in the application so that anybody can understand and work on the application very easliy. [Here](https://www.lucidchart.com/documents/edit/d6d11adb-7d10-45bd-a5e0-997f20a19ba4/0?shared=true&) is the link to the data model.
