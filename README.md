@@ -21,23 +21,22 @@
 * [Collaborators](#collaborators)
   * [Moderator](#moderator)
   * [Co-Moderators](#co-moderators)
-* [Guidelines](#guidelines)
-  * [Contributing](#contributing)
+* [Contributing Guidelines](#contributing-guidelines)
 * [Thanksgiving](#thanksgiving)
 
 ## Introduction
 
-This application is a collaborative project made by the Google Udacity Front End Web Developer Scholars during the time period of Scholarship.
+This application is a collaborative project made by the Google Udacity Front-End Web Development students during the Scholarship phase.
 
 ## Technologies
 
-The technologies which will be used to develop this applicaiton are as follows:
+The technologies which will be used in developing this application are as follows:
 
 * [React](https://reactjs.org/)
 * [Redux](https://redux.js.org/)
 * [Bootstrap 4](https://getbootstrap.com/)
 
-For knowing more about these you can refer to our guidelines in which we have described everything in details.
+To know more about the above mentioned technologies, please refer to the project guidelines.
 
 ### Mockups
 
@@ -56,11 +55,15 @@ For knowing more about these you can refer to our guidelines in which we have de
 
 ### Data Model
 
-We have also prepare a data model for our application to show the data flow in the application so that anybody can understand and work on the application very easliy. [Here](https://www.lucidchart.com/documents/edit/d6d11adb-7d10-45bd-a5e0-997f20a19ba4/0?shared=true&) is the link to the data model.
+[View data model](https://www.lucidchart.com/documents/edit/d6d11adb-7d10-45bd-a5e0-997f20a19ba4/0?shared=true&)
+- Helpful in understanding the workflow of Redux/React application.
+- Demonstrates the data flow in the application.
+
 
 ### ER Diagram
 
-Entity relation diagram is a good pictorial representation of the  database design for an application. This helps in designing backend easily. [Here](https://www.lucidchart.com/invitations/accept/4959f428-f905-44ff-9a82-1cd55f6cf960) is the link to the ER diagram.
+[View ERD](https://www.lucidchart.com/invitations/accept/4959f428-f905-44ff-9a82-1cd55f6cf960)
+<br/>This entity-relationship diagram is a visual representation of the database design for the application.
 
 ## Collaborators
 
@@ -70,7 +73,7 @@ The moderator of this project is [@ezioda004](https://github.com/ezioda004).
 
 ### Co-Moderators
 
-The co-moderators of this project are as following:
+The co-moderators of this project are:
 
 * [@Sunny Puri](https://github.com/SunnyPuri)
 * [@Vanisha](https://github.com/Vanisha27)
@@ -79,18 +82,14 @@ The co-moderators of this project are as following:
 * [@lalitmee](https://github.com/lalitmee)
 * [@Fayaz](https://github.com/fayazara)
 
-## Guidelines
+## Contributing Guidelines
 
-Here are some guidelines which will help you, if you want to contribute to this project. This is very important for us so please make sure to read these before contributing.
-
-### Contributing
-
-* We have some rules and regulations for contributing to this project which you can read [here](https://github.com/UdacityFrontEndScholarship/quiz-app/blob/master/CONTRIBUTING.md).
-* These contributing guidelines will help us in keeping track of who is contributing and what is being contributed to the project.
-* So I would request you to spend some time to read these guidelines.
+Refer to this link [CONTRIBUTING.md](https://github.com/UdacityFrontEndScholarship/quiz-app/blob/master/CONTRIBUTING.md)
+- Please make sure to read this before getting started.
+- These guidelines will help us in keeping track of who is contributing and what is being contributed to the project.
 
 ## Thanksgiving
 
-We want to say thank you to the Google Udacity Scholarship team for this ideas of collaborative projects. This is a huge step towards improving the learning curve.
+We would like to express our gratitude to the Google Udacity Scholarship team for this idea of collaborative projects. It is a huge step towards improving the learning curve.
 
-Specially thank you so much to **@akshit.udacity**.
+Special thanks to **@akshit.udacity**.
