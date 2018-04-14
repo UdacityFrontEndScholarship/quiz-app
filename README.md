@@ -21,7 +21,7 @@
 * [Collaborators](#collaborators)
   * [Moderator](#moderator)
   * [Co-Moderators](#co-moderators)
-* [Contributing Guidelines](#contributing)
+* [Contributing Guidelines](#contributing-guidelines)
 * [Thanksgiving](#thanksgiving)
 
 ## Introduction
@@ -63,7 +63,7 @@ To know more about the above mentioned technologies, please refer to the project
 ### ER Diagram
 
 [View ERD](https://www.lucidchart.com/invitations/accept/4959f428-f905-44ff-9a82-1cd55f6cf960)
-This entity-relationship diagram is a visual representation of the database design for the application.
+<br/>This entity-relationship diagram is a visual representation of the database design for the application.
 
 ## Collaborators
 
@@ -84,10 +84,9 @@ The co-moderators of this project are:
 
 ## Contributing Guidelines
 
-Refer to this link. [CONTRIBUTING.md](https://github.com/UdacityFrontEndScholarship/quiz-app/blob/master/CONTRIBUTING.md)
-Please make sure to read this before getting started.
-
-These guidelines will help us in keeping track of who is contributing and what is being contributed to the project.
+Refer to this link [CONTRIBUTING.md](https://github.com/UdacityFrontEndScholarship/quiz-app/blob/master/CONTRIBUTING.md)
+- Please make sure to read this before getting started.
+- These guidelines will help us in keeping track of who is contributing and what is being contributed to the project.
 
 ## Thanksgiving
 
