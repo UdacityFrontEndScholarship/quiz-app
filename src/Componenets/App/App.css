@@ -1,0 +1,10 @@
+.container{
+	/*border: 1px solid red;*/
+}
+
+.card-header{
+	box-sizing: content-box;
+	margin: 0;
+	padding: 0;
+}
+
