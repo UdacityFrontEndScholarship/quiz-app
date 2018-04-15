@@ -55,7 +55,7 @@ To know more about the above mentioned technologies, please refer to the project
 
 ### Data Model
 
-[View data model](https://www.lucidchart.com/documents/edit/d6d11adb-7d10-45bd-a5e0-997f20a19ba4/0?shared=true&)
+[View data model](https://www.lucidchart.com/documents/view/d6d11adb-7d10-45bd-a5e0-997f20a19ba4/0)
 - Helpful in understanding the workflow of Redux/React application.
 - Demonstrates the data flow in the application.
 
