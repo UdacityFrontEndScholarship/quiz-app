@@ -10,6 +10,8 @@ import "./App.css";
 
 class App extends Component {
   render() {
+
+      
     return (
       <div className="App">
         {/* Main App component that renders */}
@@ -17,6 +19,7 @@ class App extends Component {
         <Signin />
          
         <Signup />
+
         <Footer />
       </div>
     );
