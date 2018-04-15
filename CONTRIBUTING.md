@@ -201,7 +201,6 @@ Now you should have a GitHub account for contributing to the code base. If you d
 
 ### Fork the Project
 
-
 Create your own _fork_ of the project (if you have not yet). Go to the project repository:
 
 * https://github.com/UdacityFrontEndScholarship/quiz-app

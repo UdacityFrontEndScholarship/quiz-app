@@ -1,46 +1,47 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
-.navLink{
-    font-family: 'Open Sans', sans-serif;
-    font-size: 18px;
-    font-weight: normal;
-    color: grey;
-    padding-bottom:10px;
-    text-decoration: none;
-    display: inline-block;
-    border-bottom: 2px solid white; /* To avoid text from moving upwards when red border is made visible*/
+.navLink {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  font-weight: normal;
+  color: grey;
+  padding-bottom: 10px;
+  text-decoration: none;
+  display: inline-block;
+  border-bottom: 2px solid white; /* To avoid text from moving upwards when red border is made visible*/
 }
 
-li{
-    text-align: center;
-    margin-left: 65px; 
+li {
+  text-align: center;
+  margin-left: 65px;
 }
 
-li:first-of-type{
-    margin-left: 0px;
+li:first-of-type {
+  margin-left: 0px;
 }
 
-.navLink:hover, .navLink:active{
-    font-weight: bold;
-    text-decoration: none;
-    color: grey;
-    border-bottom:2px solid #EF8079;
+.navLink:hover,
+.navLink:active {
+  font-weight: bold;
+  text-decoration: none;
+  color: grey;
+  border-bottom: 2px solid #ef8079;
 }
 
 .navLink:after {
-    display: block;
-    content: attr(title);
-    font-weight: bold;
-    height: 0;
-    overflow: hidden;
-    visibility: hidden;
+  display: block;
+  content: attr(title);
+  font-weight: bold;
+  height: 0;
+  overflow: hidden;
+  visibility: hidden;
 }
 
-img{
-    max-width: 30%;
-    max-height: 30%;
-    padding: 0;
+img {
+  max-width: 30%;
+  max-height: 30%;
+  padding: 0;
 }
 
-.navbar-brand{
-    width: 55%;
+.navbar-brand {
+  width: 55%;
 }
