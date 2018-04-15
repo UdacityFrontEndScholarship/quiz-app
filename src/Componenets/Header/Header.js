@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 import "bootstrap/dist/css/bootstrap.css";
+import $ from "jquery";
+import 'bootstrap/dist/js/bootstrap.js';
 import './Header.css';
 import logo from '../../assets/images/skillup logo.jpg'
 
