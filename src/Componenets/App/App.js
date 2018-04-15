@@ -1,25 +1,52 @@
 import React, { Component } from "react";
 import Footer from "../Footer/Footer.js";
 import Header from "../Header/Header.js";
-import Signin from "../Signin/Signin.js";
-import Signup from '../Signup/Signup.js';
 
+import Form from '../Form/Form.js';
 import "bootstrap/dist/css/bootstrap.css";
 import "./App.css";
 
 
 class App extends Component {
+  constructor(props){
+    super(props);
+
+    this.state = {
+      signUp: true,
+      login: false
+      
+    }
+    this.signUpHandler =  this.signUpHandler.bind(this);
+    this.logInHandler = this.logInHandler.bind(this);
+  }
+  signUpHandler(event){
+    event.preventDefault();
+    this.setState({
+      signUp: true,
+      login: false
+    });
+  }
+  logInHandler(event){
+    event.preventDefault();
+    this.setState({
+      signUp: false,
+      login: true
+    });
+  }
   render() {
 
-      
+    
     return (
       <div className="App">
         {/* Main App component that renders */}
         <Header />
-        <Signin />
-         
-        <Signup />
-
+       
+        <Form 
+          signUp = {this.signUpHandler}
+          logIn = {this.logInHandler}
+          selectForm = {this.state.signUp}
+        />
+        
         <Footer />
       </div>
     );
