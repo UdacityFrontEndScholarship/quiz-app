@@ -1,48 +1,55 @@
 /* Importing Open Sans Font */
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
+/* Same font throught the form */
 * {
     font-family: 'Open Sans', sans-serif;
 }
 
+/* Make placeholder text of uniform size */
 *::-webkit-input-placeholder {
     font-size: 0.9em;
 }
 
-
-.sign-in-up-container {
-
-    padding: 0.5em;
-    background: -webkit-linear-gradient(to bottom, #1e73ff, #96bdff) !important;
-    background: linear-gradient(to bottom, #0561ff, #96bdff);
-    border: 2px solid #000;
-    border-radius: 5px;
-}
-
-
+/* Font size of Sign In/Sign Up */
 .signup, .signin {
     font-size: 1.4em;
 }
 
+/* To keep the color of Sign In/Sign Up same in all conditions */
+a, a:visited, a:active, a:hover {
+    color: #eee;
+}
 
+/* To make Sign In and Sign Up anchor tag buttons (role=button) to go full width */
+.text-center {
+    padding: 0;
+}
+
+/* White border around selected button either Sign In or Sign Up */
+#signup:focus, #signin:focus {
+    border: 1px solid #999;
+}
+
+/* Removes default padding on Sign In/Sign Up and removes default border radius */
+#signup, #signin {
+    padding: 0;
+    border-radius: 0;
+}
+
+/* Gives a pressable button like effect to Sign In/Sign Up on hover */
+#signin:hover,
+#signup:hover {
+    transform: translateY(1px);
+    font-size: bold;
+}
+
+/* Hide any overflow */
 .btn {
-    border: 1px solid #333;
     overflow: hidden;
 }
 
-.btn:hover {
-    border: 1px solid #333;
-}
-
-
-a, a:visited, a:active, a:hover {
-    color: #111;
-}
-
-a:hover {
-    transform: translateY(-2px);
-}
-
-#signup, #signin {
-    padding: 0;
+/* Adds box shadow to the form */
+.card-header, .card-body {
+    box-shadow: 0px 0px 15px black;
 }

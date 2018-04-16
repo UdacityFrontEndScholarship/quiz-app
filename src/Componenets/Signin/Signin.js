@@ -7,31 +7,21 @@ class Signin extends Component {
 		return (
 			// Signin goes here
 			<main>
-                <div className="card-body">
+                <div className="card-body border border-dark">
                     <div className="container">
                         <div className="row justify-content-center">
                             <div className="form-container col-md-10">
                                 <form>
                                     <div className="form-group">
-                                        <input
-                                            type="email"
-                                            name="email"
-                                            placeholder="Your Email ID"
-                                            className="form-input form-control" required
-                                        />
+                                        <input type="email" name="email" placeholder="Your Email ID" className="form-input form-control border border-dark" required />
                                     </div>
                                     <div className="form-group">
-                                        <input
-                                            type="password"
-                                            name="password"
-                                            placeholder="Password"
-                                            className="form-input form-control" required
-                                        />
+                                        <input type="password" name="password" placeholder="Password" className="form-input form-control border border-dark" required />
                                     </div>
                                     <div className="form-group">
                                         <input
                                             type="submit"
-                                            className="form-btn btn btn-primary btn-block"
+                                            className="form-btn btn btn-dark btn-block"
                                             value="Sign In"
                                             name="btn-login"
                                         />
@@ -39,7 +29,7 @@ class Signin extends Component {
 
                                     <button
                                         type="button"
-                                        className="btn btn-light btn-block"
+                                        className="btn btn-light btn-block border border-dark"
                                     >
                                         <svg
                                             id="google"
@@ -84,7 +74,7 @@ class Signin extends Component {
 
                                     <button
                                         type="button"
-                                        className="btn btn-light btn-block"
+                                        className="btn btn-light btn-block border border-dark"
                                     >
                                         <svg
                                             viewBox="0 0 128 128"

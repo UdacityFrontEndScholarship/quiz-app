@@ -9,27 +9,21 @@ const Form = (props) => {
             <div className="container">
                 <div className="row justify-content-center">
                     <div className="col-md-6 col-md-offset-4">
-                        <div className="card">
-                            <div className="card-header">
+                        <div className="card border border-dark">
+                            <div className="card-header border border-dark">
                                 <div className="container">
-                                    <div className="row sign-in-up-container">
-                                        <div
-                                            className="col-xs-6 col-md-6 col-lg-6 signup text-center"
-                                            id="signup-link"
-                                        >
+                                    <div className="row border border-dark">
+                                        <div className="col-xs-6 col-md-6 col-lg-6 signup text-center" id="signup-link">
                                             <a onClick = {props.signUp}
                                                 href="#signup"
-                                                className="active"
-                                                id="signup">Sign Up</a>
+                                                className="btn btn-lg btn-block btn-dark active"
+                                                role="button" aria-pressed="true" id="signup">Sign Up</a>
 
                                         </div>
                                         <div
-                                            className="col-xs-6 col-md-6 col-lg-6 signin text-center"
-                                            id="signin-link"
-                                        >
+                                            className="col-xs-6 col-md-6 col-lg-6 signin text-center" id="signin-link">
                                             <a onClick = {props.logIn}
-                                                href="#signin"
-                                                id="signin">Sign In</a>
+                                                href="#signin" className="btn btn-lg btn-block btn-dark active" role="button" aria-pressed="true" id="signin">Sign In</a>
                                         </div>
                                     </div>
                                 </div>
