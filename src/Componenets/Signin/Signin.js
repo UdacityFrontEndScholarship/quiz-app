@@ -18,6 +18,7 @@ class Signin extends Component {
                       name="email"
                       placeholder="Your Email ID"
                       className="form-input form-control"
+                      required
                     />
                   </div>
                   <div className="form-group">
@@ -26,6 +27,7 @@ class Signin extends Component {
                       name="password"
                       placeholder="Password"
                       className="form-input form-control"
+                      required
                     />
                   </div>
                   <div className="form-group">
