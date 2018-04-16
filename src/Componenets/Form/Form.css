@@ -1,0 +1,48 @@
+/* Importing Open Sans Font */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+*::-webkit-input-placeholder {
+    font-size: 0.9em;
+}
+
+
+.sign-in-up-container {
+
+    padding: 0.5em;
+    background: -webkit-linear-gradient(to bottom, #1e73ff, #96bdff) !important;
+    background: linear-gradient(to bottom, #0561ff, #96bdff);
+    border: 2px solid #000;
+    border-radius: 5px;
+}
+
+
+.signup, .signin {
+    font-size: 1.4em;
+}
+
+
+.btn {
+    border: 1px solid #333;
+    overflow: hidden;
+}
+
+.btn:hover {
+    border: 1px solid #333;
+}
+
+
+a, a:visited, a:active, a:hover {
+    color: #111;
+}
+
+a:hover {
+    transform: translateY(-2px);
+}
+
+#signup, #signin {
+    padding: 0;
+}

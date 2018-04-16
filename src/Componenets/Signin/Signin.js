@@ -14,10 +14,10 @@ class Signin extends Component {
                                 <form>
                                     <div className="form-group">
                                         <input
-                                            type="text"
+                                            type="email"
                                             name="email"
                                             placeholder="Your Email ID"
-                                            className="form-input form-control"
+                                            className="form-input form-control" required
                                         />
                                     </div>
                                     <div className="form-group">
@@ -25,7 +25,7 @@ class Signin extends Component {
                                             type="password"
                                             name="password"
                                             placeholder="Password"
-                                            className="form-input form-control"
+                                            className="form-input form-control" required
                                         />
                                     </div>
                                     <div className="form-group">
@@ -39,7 +39,7 @@ class Signin extends Component {
 
                                     <button
                                         type="button"
-                                        className="btn btn-default btn-block"
+                                        className="btn btn-light btn-block"
                                     >
                                         <svg
                                             id="google"
@@ -84,7 +84,7 @@ class Signin extends Component {
 
                                     <button
                                         type="button"
-                                        className="btn btn-default btn-block"
+                                        className="btn btn-light btn-block"
                                     >
                                         <svg
                                             viewBox="0 0 128 128"
