@@ -59,7 +59,7 @@ class Signup extends Component {
                         className="conform-password form-input form-control"
                         type="password"
                         name="conformPassword"
-                        placeholder="Conform Password"
+                        placeholder="Confirm Password"
                         required
                       />
                     </div>
