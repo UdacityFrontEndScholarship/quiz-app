@@ -1,9 +1,9 @@
-import React from 'react';
-import Signin from '../Signin/Signin.js';
-import Signup from '../Signup/Signup.js';
+import React from "react";
+import Signin from "../Signin/Signin.js";
+import Signup from "../Signup/Signup.js";
 import "bootstrap/dist/css/bootstrap.css";
 import "./Form.css";
-const Form = (props) => {
+const Form = props => {
     return (
         <div className="maincontainer">
             <div className="container">
@@ -13,29 +13,47 @@ const Form = (props) => {
                             <div className="card-header">
                                 <div className="container">
                                     <div className="row">
-                                        <div className="col-xs-6 col-sm-6 col-md-6 col-lg-6 signup text-center" id="signup-link">
-                                            <a onClick = {props.signUp}
+                                        <div
+                                            className="col-xs-6 col-sm-6 col-md-6 col-lg-6 signup text-center"
+                                            id="signup-link"
+                                        >
+                                            <a
+                                                onClick={props.signUp}
                                                 href="#signup"
                                                 className="btn btn-lg btn-block active font-weight-bold"
-                                                role="button" aria-pressed="true" id="signup">Sign Up</a>
-
+                                                role="button"
+                                                aria-pressed="true"
+                                                id="signup"
+                                            >
+                                                Sign Up
+                                            </a>
                                         </div>
                                         <div
-                                            className="col-xs-6 col-sm-6 col-md-6 col-lg-6 signin text-center" id="signin-link">
-                                            <a onClick = {props.logIn}
-                                                href="#signin" className="btn btn-lg btn-block active font-weight-bold" role="button" aria-pressed="true" id="signin">Sign In</a>
+                                            className="col-xs-6 col-sm-6 col-md-6 col-lg-6 signin text-center"
+                                            id="signin-link"
+                                        >
+                                            <a
+                                                onClick={props.logIn}
+                                                href="#signin"
+                                                className="btn btn-lg btn-block active font-weight-bold"
+                                                role="button"
+                                                aria-pressed="true"
+                                                id="signin"
+                                            >
+                                                Sign In
+                                            </a>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             {/* Form switch logic here */}
-                            {props.selectForm?<Signup/> : <Signin/>} 
+                            {props.selectForm ? <Signup /> : <Signin />}
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-  );
+    );
 };
 
 export default Form;
