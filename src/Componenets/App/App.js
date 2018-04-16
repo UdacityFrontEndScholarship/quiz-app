@@ -1,11 +1,9 @@
 import React, { Component } from "react";
+import "bootstrap/dist/css/bootstrap.css";
 import Footer from "../Footer/Footer.js";
 import Header from "../Header/Header.js";
-
 import Form from '../Form/Form.js';
-import "bootstrap/dist/css/bootstrap.css";
 import "./App.css";
-
 
 class App extends Component {
   constructor(props){

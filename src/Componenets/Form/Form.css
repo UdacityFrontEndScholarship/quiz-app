@@ -1,0 +1,79 @@
+/* Importing Open Sans Font */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+
+* {
+    box-sizing: border-box;
+}
+
+/* Change this after footer has been designed / Might need changes after footer has been designed  */
+.maincontainer {
+    padding-bottom: 3em;
+}
+
+/* Same font throughout the form */
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Make placeholder text of uniform size */
+*::-webkit-input-placeholder {
+    font-size: 0.9em;
+}
+
+/* Font size of Sign In/Sign Up */
+.signup, .signin {
+    font-size: 1.4em;
+    background-color: #85CDD5;
+}
+
+/* To keep the color of Sign In/Sign Up same in all conditions */
+a, a:visited, a:active, a:hover {
+    color: #000;
+}
+
+
+/* To make Sign In and Sign Up (main switch tab buttons) (role=button) to go full width. text-center class was adding padding 15px to them */
+.text-center {
+    padding: 0;
+}
+
+/* Teal/bluish border around selected button either Sign In or Sign Up */
+#signup:focus, #signin:focus {
+    border: 3px solid #19ABBC;
+}
+
+/* Removes default padding on Sign In/Sign Up and removes default border radius */
+#signup, #signin {
+    padding: 0.5em;
+    height: auto;
+    border-radius: 0;
+}
+
+/* Gives a pressable button like effect to Sign In/Sign Up on hover and adds box shadow */
+#signin:hover, #signup:hover, .signup-button:hover, .signin-button:hover {
+    transform: translateY(1px);
+    box-shadow: 0 0 15px rgba(0,0,0,0.25);
+}
+
+/* No default rounded corners/no border radius for form elements & hide any overflow */
+.btn, .form-input {
+    border-radius: 0;
+    overflow: hidden;
+    height: 3em;
+}
+
+/* Adds box shadow to the form */
+.card-header, .card-body {
+    box-shadow: 0 0 15px rgba(0,0,0,0.25);
+}
+
+/* Background color for Sign In/ Sign Up buttons */
+.signup-button, .signin-button {
+    background-color: #19ABBC;
+}
+
+/* Aligns the Google/GitHub icons in the middle with text */
+.google, .github {
+    vertical-align: middle;
+}
