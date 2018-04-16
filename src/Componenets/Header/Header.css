@@ -10,9 +10,10 @@
   border-bottom: 2px solid white; /* To avoid text from moving upwards when red border is made visible*/
 }
 
-li {
-  text-align: center;
-  margin-left: 65px;
+
+header li{
+    text-align: center;
+    margin-left: 65px; 
 }
 
 li:first-of-type {
