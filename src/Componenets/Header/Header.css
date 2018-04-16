@@ -46,3 +46,13 @@ img {
 .navbar-brand {
   width: 55%;
 }
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  header li {
+    margin: auto;
+  }
+  li:first-of-type{
+    margin: auto;
+  }
+}
