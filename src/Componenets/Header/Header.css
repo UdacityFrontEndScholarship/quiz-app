@@ -7,13 +7,13 @@
   padding-bottom: 10px;
   text-decoration: none;
   display: inline-block;
-  border-bottom: 2px solid white; /* To avoid text from moving upwards when red border is made visible*/
+  border-bottom: 2px solid white;
+  /* To avoid text from moving upwards when red border is made visible*/
 }
 
-
-header li{
-    text-align: center;
-    margin-left: 65px; 
+header li {
+  text-align: center;
+  margin-left: 65px;
 }
 
 li:first-of-type {
@@ -38,13 +38,12 @@ li:first-of-type {
 }
 
 img {
-  max-width: 30%;
-  max-height: 30%;
+  max-width: 40%;
   padding: 0;
 }
 
 .navbar-brand {
-  width: 55%;
+  width: 50%;
 }
 
 @media only screen and (max-width: 768px) {
@@ -52,7 +51,13 @@ img {
   header li {
     margin: auto;
   }
-  li:first-of-type{
+  li:first-of-type {
     margin: auto;
+  }
+  img {
+    max-width: 90%;
+  }
+  .navbar-brand {
+    width: 70%
   }
 }
