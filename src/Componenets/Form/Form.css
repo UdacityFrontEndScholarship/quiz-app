@@ -24,11 +24,7 @@
 .signup,
 .signin {
     font-size: 1.4em;
-<<<<<<< HEAD
-    /* background-color: #85CDD5; */
-=======
     background-color: #85cdd5;
->>>>>>> upstream/master
 }
 
 /* To keep the color of Sign In/Sign Up same in all conditions */
