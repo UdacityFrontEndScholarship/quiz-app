@@ -24,7 +24,6 @@
 .signup,
 .signin {
     font-size: 1.4em;
-    background-color: #85cdd5;
 }
 
 /* To keep the color of Sign In/Sign Up same in all conditions */
@@ -43,7 +42,7 @@ a:hover {
 /* Teal/bluish border around selected button either Sign In or Sign Up */
 #signup:focus,
 #signin:focus {
-    border: 3px solid #19abbc;
+    border: 2px solid #19abbc;
 }
 
 /* Removes default padding on Sign In/Sign Up and removes default border radius */
@@ -61,6 +60,9 @@ a:hover {
 .signin-button:hover {
     transform: translateY(1px);
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.25);
+}
+.active {
+    background-color: #85CDD5;
 }
 
 /* No default rounded corners/no border radius for form elements & hide any overflow */
