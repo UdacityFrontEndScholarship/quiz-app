@@ -3,7 +3,7 @@
   font-family: 'Open Sans', sans-serif;
   font-size: 18px;
   font-weight: normal;
-  color: grey;
+  color: grey !important;
   padding-bottom: 10px;
   text-decoration: none;
   display: inline-block;
@@ -38,12 +38,12 @@ li:first-of-type {
 }
 
 img {
-  max-width: 40%;
+  max-width: 100%;
   padding: 0;
 }
 
 .navbar-brand {
-  width: 50%;
+  width: 30%;
 }
 
 @media only screen and (max-width: 768px) {
@@ -59,5 +59,14 @@ img {
   }
   .navbar-brand {
     width: 70%
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .navbar-brand{
+    width: 35%;
+  }
+  img{
+    max-width: 70%;
   }
 }
