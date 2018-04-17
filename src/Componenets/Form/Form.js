@@ -16,14 +16,22 @@ const Form = (props) => {
                                         <div className="col-xs-6 col-sm-6 col-md-6 col-lg-6 signup text-center" id="signup-link">
                                             <a onClick = {props.signUp}
                                                 href="#signup"
-                                                className="btn btn-lg btn-block active font-weight-bold"
-                                                role="button" aria-pressed="true" id="signup">Sign Up</a>
+                                                // className="btn btn-lg btn-block active font-weight-bold"
+                                                // className= {props.selectForm?"active":null}
+                                                className = {`btn btn-lg btn-block font-weight-bold ${props.selectForm?"active":""}`} 
+                                                role="button" aria-pressed="true" id="signup">Sign Up
+                                            </a>
 
                                         </div>
                                         <div
                                             className="col-xs-6 col-sm-6 col-md-6 col-lg-6 signin text-center" id="signin-link">
                                             <a onClick = {props.logIn}
-                                                href="#signin" className="btn btn-lg btn-block active font-weight-bold" role="button" aria-pressed="true" id="signin">Sign In</a>
+                                                href="#signin" 
+                                                className= {`btn btn-lg btn-block font-weight-bold ${!props.selectForm?"active":""}`} 
+                                               
+                                                role="button" 
+                                                aria-pressed="true" id="signin">Sign In
+                                            </a>
                                         </div>
                                     </div>
                                 </div>

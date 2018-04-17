@@ -24,7 +24,7 @@
 /* Font size of Sign In/Sign Up */
 .signup, .signin {
     font-size: 1.4em;
-    background-color: #85CDD5;
+    /* background-color: #85CDD5; */
 }
 
 /* To keep the color of Sign In/Sign Up same in all conditions */
@@ -54,6 +54,9 @@ a, a:visited, a:active, a:hover {
 #signin:hover, #signup:hover, .signup-button:hover, .signin-button:hover {
     transform: translateY(1px);
     box-shadow: 0 0 15px rgba(0,0,0,0.25);
+}
+.active {
+    background-color: #85CDD5;
 }
 
 /* No default rounded corners/no border radius for form elements & hide any overflow */
