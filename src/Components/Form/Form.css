@@ -1,6 +1,5 @@
 /* Importing Open Sans Font */
-@import url('https://fonts.googleapis.com/css?family=Open+Sans');
-
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
 
 * {
     box-sizing: border-box;
@@ -13,7 +12,7 @@
 
 /* Same font throughout the form */
 * {
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Open Sans", sans-serif;
 }
 
 /* Make placeholder text of uniform size */
@@ -22,16 +21,18 @@
 }
 
 /* Font size of Sign In/Sign Up */
-.signup, .signin {
+.signup,
+.signin {
     font-size: 1.4em;
-    background-color: #85CDD5;
 }
 
 /* To keep the color of Sign In/Sign Up same in all conditions */
-a, a:visited, a:active, a:hover {
+a,
+a:visited,
+a:active,
+a:hover {
     color: #000;
 }
-
 
 /* To make Sign In and Sign Up (main switch tab buttons) (role=button) to go full width. text-center class was adding padding 15px to them */
 .text-center {
@@ -39,41 +40,62 @@ a, a:visited, a:active, a:hover {
 }
 
 /* Teal/bluish border around selected button either Sign In or Sign Up */
-#signup:focus, #signin:focus {
-    border: 3px solid #19ABBC;
+#signup:focus,
+#signin:focus {
+    border: 2px solid #19abbc;
 }
 
 /* Removes default padding on Sign In/Sign Up and removes default border radius */
-#signup, #signin {
+#signup,
+#signin {
     padding: 0.5em;
     height: auto;
     border-radius: 0;
 }
 
 /* Gives a pressable button like effect to Sign In/Sign Up on hover and adds box shadow */
-#signin:hover, #signup:hover, .signup-button:hover, .signin-button:hover {
+#signin:hover,
+#signup:hover,
+.signup-button:hover,
+.signin-button:hover {
     transform: translateY(1px);
-    box-shadow: 0 0 15px rgba(0,0,0,0.25);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.25);
+}
+.active {
+    background-color: #85CDD5;
 }
 
 /* No default rounded corners/no border radius for form elements & hide any overflow */
-.btn, .form-input {
+.btn,
+.form-input {
     border-radius: 0;
     overflow: hidden;
     height: 3em;
 }
 
 /* Adds box shadow to the form */
-.card-header, .card-body {
-    box-shadow: 0 0 15px rgba(0,0,0,0.25);
+.card-header,
+.card-body {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.25);
 }
 
 /* Background color for Sign In/ Sign Up buttons */
-.signup-button, .signin-button {
-    background-color: #19ABBC;
+.signup-button,
+.signin-button {
+    background-color: #19abbc;
 }
 
 /* Aligns the Google/GitHub icons in the middle with text */
-.google, .github {
+.google,
+.github {
     vertical-align: middle;
+    background-color: white;
+}
+
+.btn-light {
+    background-color: white;
+}
+
+.border-custom-color {
+    border: 1px solid #c4c8cc;
 }
