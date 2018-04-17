@@ -1,9 +1,19 @@
-.container{
-	
-}
+.container {}
 
-.card-header{
+.card-header {
 	box-sizing: content-box;
 	margin: 0;
 	padding: 0;
 }
+
+/* footer to stay the the bottom of the viewport */
+.App {
+	display: flex;
+	flex-flow: column nowrap;
+	height: 100%;
+}
+
+.maincontainer {
+	flex-grow: 1;
+}
+/*  */

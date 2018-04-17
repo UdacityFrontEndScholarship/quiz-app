@@ -2,5 +2,20 @@ footer {
     background: #F1F2F4;
     color: white;
     bottom: 0;
-    width: 100%;   
+    width: 100%;
+    font-family: "Open Sans";
+    font-size: 15px;
+}
+
+.footer__links {
+    margin: 0;
+}
+
+a {
+    color: #515B69;
+    text-decoration: none !important;
+}
+
+.footer__social {
+    width: 100%;
 }
