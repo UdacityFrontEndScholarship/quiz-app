@@ -42,7 +42,7 @@ a:hover {
 /* Teal/bluish border around selected button either Sign In or Sign Up */
 #signup:focus,
 #signin:focus {
-    border: 2px solid #19abbc;
+    border: 1px solid #19abbc;
 }
 
 /* Removes default padding on Sign In/Sign Up and removes default border radius */
@@ -77,6 +77,9 @@ a:hover {
 .card-header,
 .card-body {
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.25);
+}
+.card-header {
+    padding: 0;
 }
 
 /* Background color for Sign In/ Sign Up buttons */
