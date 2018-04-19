@@ -46,27 +46,72 @@ img {
   width: 30%;
 }
 
-@media only screen and (max-width: 768px) {
-  /* For mobile phones: */
+/*Keeping image width as 100% everywhere and only adjusting navbar width*/
+/*Devices 412px and down*/
+@media only screen and (max-width:412px){
   header li {
     margin: auto;
   }
+
   li:first-of-type {
     margin: auto;
   }
-  img {
-    max-width: 90%;
-  }
+
   .navbar-brand {
-    width: 70%
+    width: 60%
   }
 }
 
-@media only screen and (min-width: 768px) {
-  .navbar-brand{
-    width: 35%;
-  }
-  img{
-    max-width: 70%;
-  }
-}
+ /* Extra small devices (phones, 412px and up) */
+ @media only screen and (min-width: 412px) {
+   header li {
+     margin: auto;
+   }
+
+   li:first-of-type {
+     margin: auto;
+   }
+   
+   .navbar-brand {
+     width: 45%
+   }
+ }
+
+ /* Small devices (portrait tablets and large phones, 600px and up) */
+ @media only screen and (min-width: 600px) {
+  
+   .navbar-brand {
+     width: 35%
+   }
+ }
+
+ /* Medium devices (landscape tablets, 768px and up) */
+ @media only screen and (min-width: 768px) {
+   header li {
+     text-align: center;
+     margin-left: 65px;
+   }
+
+   li:first-of-type {
+     margin-left: 0px;
+   }
+
+   .navbar-brand {
+     width: 27.5%
+   }
+   
+ }
+
+ /* Large devices (laptops/desktops, 992px and up) */
+ @media only screen and (min-width: 992px) {
+   .navbar-brand {
+     width: 22.5%
+   }
+ }
+
+ /* Extra large devices (large laptops and desktops, 1200px and up) */
+ @media only screen and (min-width: 1200px) {
+   .navbar-brand {
+     width: 20%
+   }
+ }
