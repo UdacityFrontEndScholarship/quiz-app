@@ -1,6 +1,5 @@
 
 /* Please change the this footer, position absolute is temp, pref use bootstrap or flexbox */
-
 #welcome > footer {
     position: absolute;
     bottom: 0;

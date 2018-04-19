@@ -9,8 +9,7 @@ import "./Welcome.css";
 class Welcome extends Component {
     render(){
         return (
-            
-            <div id = "welcome">
+           <div id = "welcome">
                 <Navbar/>
                 <Home />
                 <Footer />
