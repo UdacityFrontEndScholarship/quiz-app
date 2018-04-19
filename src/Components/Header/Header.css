@@ -3,17 +3,17 @@
   font-family: 'Open Sans', sans-serif;
   font-size: 18px;
   font-weight: normal;
-  color: grey;
+  color: grey !important;
   padding-bottom: 10px;
   text-decoration: none;
   display: inline-block;
-  border-bottom: 2px solid white; /* To avoid text from moving upwards when red border is made visible*/
+  border-bottom: 2px solid white;
+  /* To avoid text from moving upwards when red border is made visible*/
 }
 
-
-header li{
-    text-align: center;
-    margin-left: 65px; 
+header li {
+  text-align: center;
+  margin-left: 65px;
 }
 
 li:first-of-type {
@@ -38,11 +38,17 @@ li:first-of-type {
 }
 
 img {
-  max-width: 30%;
-  max-height: 30%;
+  width: 230px;
   padding: 0;
 }
 
-.navbar-brand {
-  width: 55%;
+/* For everything below 768px*/
+
+@media only screen and (max-width: 768px) {
+  header li {
+    margin: auto;
+  }
+  li:first-of-type {
+    margin: auto;
+  }
 }
