@@ -53,7 +53,7 @@ For knowing more about these you can refer to our guidelines in which we have de
 
 - [SignIn Page Detailed](https://github.com/parulbindal/quiz-app/blob/master/src/assets/images/Sign%20In%20Page%20Detailed.jpg?raw=true)
 
-* [Welcome Page](https://raw.githubusercontent.com/parulbindal/quiz-app/master/src/assets/images/Welcome%20Page.png)
+* [Welcome Page](https://github.com/parulbindal/quiz-app/blob/master/src/assets/images/Welcome%20Page.png?raw=true)
 
 
 ### Data Model
