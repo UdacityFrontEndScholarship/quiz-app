@@ -1,0 +1,9 @@
+/* footer to stay the the bottom of the viewport */
+main {
+    display: flex;
+	flex-flow: column nowrap;
+	height: 100%;
+}
+.maincontainer {
+	flex-grow: 1;
+}

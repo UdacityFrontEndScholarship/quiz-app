@@ -1,0 +1,6 @@
+
+/* Please change the this footer, position absolute is temp, pref use bootstrap or flexbox */
+footer {
+    position: absolute;
+    bottom: 0;
+}
