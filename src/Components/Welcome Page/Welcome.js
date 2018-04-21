@@ -10,14 +10,14 @@ class Welcome extends Component {
     render(){
         return (
            <div id = "welcome">
-                <Navbar />
+                <Navbar/>
                 <Home />
                 <Footer />
-
             </div>
 
         )
     }
 }
+
 
 export default Welcome;
