@@ -38,8 +38,8 @@ li:first-of-type {
 }
 
 img {
-  width: 230px;
-  padding: 0;
+  width: 150px;
+  padding:0;
 }
 
 /* For everything below 768px*/

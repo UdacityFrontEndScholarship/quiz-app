@@ -1,0 +1,22 @@
+*{
+         box-sizing: border-box;
+     }
+     body {
+            margin: 0;
+           }
+     .topnav {
+    overflow: hidden;
+    background-color: #fff;
+          }      
+          .topnav a {
+    float: right;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+       }
+     .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+     }
