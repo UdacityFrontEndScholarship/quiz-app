@@ -20,7 +20,11 @@ const Form = props => {
                                             <a
                                                 onClick={props.signUp}
                                                 href="#signup"
-                                                className={`btn btn-lg btn-block font-weight-bold ${props.selectForm ? `active`: ``}`}
+                                                className={`btn btn-lg btn-block font-weight-bold ${
+                                                    props.selectForm
+                                                        ? `active`
+                                                        : ``
+                                                }`}
                                                 role="button"
                                                 aria-pressed="true"
                                                 id="signup"
@@ -35,7 +39,11 @@ const Form = props => {
                                             <a
                                                 onClick={props.logIn}
                                                 href="#signin"
-                                                className={`btn btn-lg btn-block font-weight-bold ${!props.selectForm ? `active`: ``}`}
+                                                className={`btn btn-lg btn-block font-weight-bold ${
+                                                    !props.selectForm
+                                                        ? `active`
+                                                        : ``
+                                                }`}
                                                 role="button"
                                                 aria-pressed="true"
                                                 id="signin"

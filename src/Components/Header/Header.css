@@ -16,10 +16,6 @@ header li {
   margin-left: 65px;
 }
 
-li:first-of-type {
-  margin-left: 0px;
-}
-
 .navLink:hover,
 .navLink:active {
   font-weight: bold;
