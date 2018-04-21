@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+.navLink {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  font-weight: normal;
+  color: grey !important;
+  padding-bottom: 10px;
+  text-decoration: none;
+  display: inline-block;
+  border-bottom: 2px solid white;
+}
+
+.navLink:hover,
+.navLink:active {
+  font-weight: bold;
+  text-decoration: none;
+  color: grey;
+  border-bottom: 2px solid #ef8079;
+}
+
+.navLink:after {
+  display: block;
+  content: attr(title);
+  font-weight: bold;
+  height: 0;
+  overflow: hidden;
+  visibility: hidden;
+}
+
+img {
+  width: 230px;
+  padding: 0;
+ 
+}
+
+li {
+  margin-right: 30px;
+  text-align: center;
+  margin-left: 35px;
+}
+
+/* For screens below 768px */
+
+@media only screen and (max-width: 768px) {
+  header li {
+    margin: auto;
+  }
+  li:first-of-type {
+    margin: auto;
+  }
+}
+
