@@ -10,10 +10,16 @@ class Welcome extends Component {
     render(){
         return (
            <div id = "welcome">
+<<<<<<< HEAD
                 <Navbar />
                 <Home />
                 <Footer />
 
+=======
+                <Navbar/>
+                <Home />
+                <Footer />
+>>>>>>> 3a3217f1fddce292d83d1e4e93fc6b1bd97fa34d
             </div>
 
         )
