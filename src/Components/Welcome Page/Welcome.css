@@ -1,8 +1,14 @@
 
 /* Please change the this footer, position absolute is temp, pref use bootstrap or flexbox */
 
-#welcome > footer {
+/*#welcome > footer {
     position: absolute;
     bottom: 0;
     width: 100%;
+}*/
+
+#welcome{
+  display:flex;
+  flex-direction:column;
 }
+

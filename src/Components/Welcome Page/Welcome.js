@@ -9,15 +9,16 @@ import "./Welcome.css";
 class Welcome extends Component {
     render(){
         return (
-            
-            <div id = "welcome">
-                <Navbar/>
+           <div id = "welcome">
+                <Navbar />
                 <Home />
                 <Footer />
+
             </div>
-        
+
         )
     }
 }
+
 
 export default Welcome;
