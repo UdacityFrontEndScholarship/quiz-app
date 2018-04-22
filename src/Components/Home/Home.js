@@ -8,10 +8,10 @@ class Home extends Component {
         return(
             <main>
               <section className="main-section">
-                  <img className="background-image" src="https://i.imgur.com/efsiBNt.jpg"/>
+                  <img className="background-image"/>
                   <div className="main-content-area">
                       <h1>Skill Up to <div>Next Level</div></h1>
-                      <h3><span>Challenge</span> others and <span>Practice</span> yourself <div>against
+                      <h3><span>Challenge</span> others and <span>Practice</span> yourself <div className="linespace">against
                       time in different subjects.</div></h3>
                       <a href="#" className="btn btn-sm">Start Quiz</a>
                   </div>
@@ -67,4 +67,3 @@ class Home extends Component {
 }
 
 export default Home;
-

@@ -33,10 +33,7 @@ html {
 	height: 100%;
 	background-size: cover;
 	z-index: -1;
-  filter:blur(3px);
-  /*filter:grayscale(50%);*/
-  opacity:1;
-  /*background-color: rgba(0,0,0,0.9);*/
+  background-image: linear-gradient(rgba(100,100,100,0.6), rgba(100,100,100,0.6)), url("https://i.imgur.com/efsiBNt.jpg");
 }
 
 .main-section h1 {
@@ -51,10 +48,13 @@ html {
 	margin-bottom: 40px;
 }
 .main-section h3 span {
-  text-decoration: underline;
-
+    border-bottom: 2px solid #d90932;
+    padding-bottom: 3px;
 }
 
+.linespace{
+	padding-top: 5px;
+}
 .main-section a.btn {
 	padding: 10px 30px;
   letter-spacing: 3px;
