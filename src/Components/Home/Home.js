@@ -17,12 +17,12 @@ class Home extends Component {
                   </div>
               </section>
 
-              <section className="content">
+              <section className="container-fluid">
                   <div className="row justify-content-center">
-                      <div className="col col">
+                      <div className="col-image">
                           <img className="content-image" src="https://i.imgur.com/azkKnMe.jpg"/>
                       </div>
-                      <div className="col col">
+                      <div className="col-content">
                         <div className="content-area">
                           <h1>subjects</h1>
                           <hr />
@@ -32,27 +32,27 @@ class Home extends Component {
                   </div>
               </section>
 
-              <section className="content">
+              <section className="container-fluid">
                   <div className="row justify-content-center">
-                      <div className="col">
+                      <div className="col-content">
                         <div className="content-area">
                           <h1>Challenge</h1>
                           <hr />
                           <h3>Choose from our largest collection of subjects.</h3>
                         </div>
                       </div>
-                      <div className="col">
+                      <div className="col-image">
                           <img className="content-image" src="https://i.imgur.com/9BWq0c7.jpg"/>
                       </div>
                   </div>
               </section>
 
-              <section className="content">
+              <section className="container-fluid">
                   <div className="row justify-content-center">
-                      <div className="col">
+                      <div className="col-image">
                           <img className="content-image" src="https://i.imgur.com/OaqZYmZ.jpg"/>
                       </div>
-                      <div className="col">
+                      <div className="col-content">
                         <div className="content-area">
                           <h1>Practice</h1>
                           <hr />
