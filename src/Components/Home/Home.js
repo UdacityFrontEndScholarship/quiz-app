@@ -17,7 +17,7 @@ class Home extends Component {
                   </div>
               </section>
 
-              <section className="content">
+              <section className="content container-fluid">
                   <div className="row justify-content-center">
                       <div className="col col">
                           <img className="content-image" src="https://i.imgur.com/azkKnMe.jpg"/>
@@ -32,7 +32,7 @@ class Home extends Component {
                   </div>
               </section>
 
-              <section className="content">
+              <section className="content container-fluid">
                   <div className="row justify-content-center">
                       <div className="col">
                         <div className="content-area">
@@ -47,7 +47,7 @@ class Home extends Component {
                   </div>
               </section>
 
-              <section className="content">
+              <section className="content container-fluid">
                   <div className="row justify-content-center">
                       <div className="col">
                           <img className="content-image" src="https://i.imgur.com/OaqZYmZ.jpg"/>
