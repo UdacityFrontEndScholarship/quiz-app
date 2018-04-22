@@ -48,13 +48,10 @@ html {
 	margin-bottom: 40px;
 }
 .main-section h3 span {
-	border-bottom: 2px solid #d90932;
+  border-bottom: 2px solid #d90932;
 	padding-bottom: 3px;
 }
 
-.linespace{
-	padding-top: 5px;
-}
 .main-section a.btn {
 	padding: 10px 30px;
   letter-spacing: 3px;
@@ -112,11 +109,23 @@ html {
   }
 
 }
-  .content-image {
-    margin: 0;
-    padding: 0;
-    width: 105%;
-    height: 100%;
+
+.content-image {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.col-image{
+	width:51%;
+	object-fit: cover;
+	margin:0;
+	padding: 0;
+}
+
+.col-content{
+	width: 49%;
 }
 
 .content-area hr {
