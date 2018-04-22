@@ -52,6 +52,9 @@ html {
     padding-bottom: 3px;
 }
 
+.linespace{
+	padding-top: 5px;
+}
 .main-section a.btn {
 	padding: 10px 30px;
   letter-spacing: 3px;
