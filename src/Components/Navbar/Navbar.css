@@ -50,3 +50,7 @@ li {
   }
 }
 
+.container-fluid ,.nav , .navbar-brand {
+  padding:0px;
+  margin:0px;
+}
