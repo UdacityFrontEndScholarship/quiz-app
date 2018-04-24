@@ -8,16 +8,6 @@
   text-decoration: none;
   display: inline-block;
   border-bottom: 2px solid white;
-  /* To avoid text from moving upwards when red border is made visible*/
-}
-
-header li {
-  text-align: center;
-  margin-left: 65px;
-}
-
-li:first-of-type {
-  margin-left: 0px;
 }
 
 .navLink:hover,
@@ -40,9 +30,16 @@ li:first-of-type {
 img {
   width: 230px;
   padding: 0;
+ 
 }
 
-/* For everything below 768px*/
+li {
+  margin-right: 30px;
+  text-align: center;
+  margin-left: 35px;
+}
+
+/* For screens below 768px */
 
 @media only screen and (max-width: 768px) {
   header li {
@@ -51,4 +48,9 @@ img {
   li:first-of-type {
     margin: auto;
   }
+}
+
+.container-fluid ,.nav , .navbar-brand {
+  padding:0px;
+  margin:0px;
 }
