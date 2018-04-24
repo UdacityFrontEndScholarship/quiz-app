@@ -46,6 +46,8 @@ To know more about the above mentioned technologies, please refer to the project
 
 * [Dashboard Page](https://github.com/UdacityFrontEndScholarship/quiz-app/blob/master/src/assets/images/Dashboard.jpg?raw=true)
 
+* [Dashboard Page Detailed](https://github.com/parulbindal/quiz-app/blob/master/src/assets/images/Dashboard%20Detailed.png?raw=true)
+
 - [Challenge Page](https://github.com/UdacityFrontEndScholarship/quiz-app/blob/master/src/assets/images/Challenge%20Page.jpg?raw=true)
 
 * [SignUp Page Detailed](https://github.com/parulbindal/quiz-app/blob/master/src/assets/images/Sign%20Up%20Page%20Detailed.jpg?raw=true)
