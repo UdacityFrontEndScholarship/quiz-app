@@ -161,11 +161,16 @@ margin-bottom:50px;
   letter-spacing: 2px;
 }
 #main1 {
-	background: lightblue url("https://i.imgur.com/efsiBNt.jpg") no-repeat ;
+	background-image: linear-gradient(rgba(100,100,100,0.6), rgba(100,100,100,0.6)), url("https://i.imgur.com/efsiBNt.jpg");
 	background-size: cover;
 	padding:0px;
 	z-index:1;
-	
+}
+#main1 .container{
+	padding:0px;
+}
+#main1 .container .main-section{
+	margin-left:-100px;
 }
 #row-1-image{
 	height:100%;
