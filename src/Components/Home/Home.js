@@ -28,8 +28,9 @@ class Home extends Component {
               </div>
               </div>
                 <div class="container-fluid">
-                <div class="row">
-                    
+                <div class="row" id="reverseactive">
+                <div class="col-md-7">
+                    <img src="https://i.imgur.com/azkKnMe.jpg" id="row-1-image"/></div>
                     <div class="col-md-5">
                     <div className="col-content">
                         <div className="content-area">
@@ -39,11 +40,11 @@ class Home extends Component {
                         </div>
                       </div>
                     </div>
-                    <div class="col-md-7"><img src="https://i.imgur.com/azkKnMe.jpg" id="row-1-image"/></div>
                 </div>    
                 </div>
+                
                 <div class="container-fluid">
-                <div class="row">
+                <div class="row" >
                     <div class="col-md-5">
                     <div className="col-content">
                     <div className="content-area">
@@ -59,7 +60,9 @@ class Home extends Component {
                 </div>
                 
                 <div class="container-fluid">
-                <div class="row">
+                <div class="row" id="reverseactive">
+                <div class="col-md-7"><img src="https://i.imgur.com/OaqZYmZ.jpg" id="row-1-image"/></div>
+
                     <div class="col-md-5">
                     <div className="col-content">
                         <div className="content-area">
@@ -69,7 +72,6 @@ class Home extends Component {
                         </div>
                       </div>
                     </div>
-                    <div class="col-md-7"><img src="https://i.imgur.com/OaqZYmZ.jpg" id="row-1-image"/></div>
 
                 </div>    
                 </div>
