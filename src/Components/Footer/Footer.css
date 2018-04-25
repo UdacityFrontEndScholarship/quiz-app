@@ -19,7 +19,6 @@ a {
 .footer__social {
     width: 100%;
 }
-.col-md-3 row social my-2 align-items-center d-flex justify-content-center{padding:0px; margin:0px;}
 @media (max-width:1024px) {
     .col-md-9 row footer__links align-items-center{
         display: inline-flex;
