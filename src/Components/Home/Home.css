@@ -137,6 +137,7 @@ h3-responsive {
 }
 
 .col-content{
+	height:100%;
 	width: 100%;
 }
 
@@ -178,4 +179,18 @@ margin-bottom:50px;
 }
 .col-md-7, .col-md-5, .col-md-4, .col-md-6{
 	padding:0px;
+}
+@media only screen and (max-width: 767px) {
+	#reverseactive{
+		display: -webkit-flex;
+		display:flex;
+		flex-direction: row-reverse;
+		flex-direction: column-reverse;
+
+		justify-content: flex-end;
+	}
+	.content-area{
+		padding-top:100px;
+		padding-bottom: 100px;
+	}
 }
