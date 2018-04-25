@@ -19,3 +19,9 @@ a {
 .footer__social {
     width: 100%;
 }
+@media (max-width:1024px) {
+    .col-md-9 row footer__links align-items-center{
+        display: inline-flex;
+        font-size:18px;
+    }
+}
