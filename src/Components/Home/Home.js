@@ -53,7 +53,7 @@ class Home extends Component {
                       </div>
                     </div>
                     <div class="col-md-7">
-                    <img src="https://i.imgur.com/azkKnMe.jpg" id="row-1-image"/>
+                    <img src="https://i.imgur.com/9BWq0c7.jpg" id="row-1-image"/>
                     </div>
                 </div>    
                 </div>
