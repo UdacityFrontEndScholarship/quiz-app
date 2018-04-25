@@ -18,7 +18,7 @@ html {
 }
 .main-section .btn{
   border: 2px solid #d90932;
-  border-radius: 40px;
+  border-radius: 40px;borde
   text-transform: uppercase;
   font-weight: bold;
   text-align: center;
@@ -74,14 +74,7 @@ h3-responsive {
 		margin-left: 50px;
 	}
 }
-@media (max-width:800px) {
-	
-	.container-fluid{
-		border-bottom: 1px solid black;
-	
-	}
 
-}
 @media (max-width:1024px) {
 	.main-section {
 		display: table-cell;

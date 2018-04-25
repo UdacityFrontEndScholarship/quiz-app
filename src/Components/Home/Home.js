@@ -29,7 +29,7 @@ class Home extends Component {
               </div>
                 <div class="container-fluid">
                 <div class="row">
-                    <div class="col-md-7"><img src="https://i.imgur.com/azkKnMe.jpg" id="row-1-image"/></div>
+                    
                     <div class="col-md-5">
                     <div className="col-content">
                         <div className="content-area">
@@ -39,27 +39,27 @@ class Home extends Component {
                         </div>
                       </div>
                     </div>
+                    <div class="col-md-7"><img src="https://i.imgur.com/azkKnMe.jpg" id="row-1-image"/></div>
                 </div>    
                 </div>
                 <div class="container-fluid">
                 <div class="row">
                     <div class="col-md-5">
                     <div className="col-content">
-                        <div className="content-area">
+                    <div className="content-area">
                         <h1>Challenge</h1>
                           <hr />
                           <h3>Choose from our largest collection of subjects.</h3>
                         </div>
                       </div>
                     </div>
-                    <div class="col-md-7">
-                    <img src="https://i.imgur.com/9BWq0c7.jpg" id="row-1-image"/>
-                    </div>
+                    <div class="col-md-7"><img src="https://i.imgur.com/9BWq0c7.jpg" id="row-1-image"/></div>
+
                 </div>    
                 </div>
+                
                 <div class="container-fluid">
                 <div class="row">
-                    <div class="col-md-7"><img src="https://i.imgur.com/OaqZYmZ.jpg" id="row-1-image"/></div>
                     <div class="col-md-5">
                     <div className="col-content">
                         <div className="content-area">
@@ -69,13 +69,10 @@ class Home extends Component {
                         </div>
                       </div>
                     </div>
+                    <div class="col-md-7"><img src="https://i.imgur.com/OaqZYmZ.jpg" id="row-1-image"/></div>
+
                 </div>    
                 </div>
-                
-
-
-
-
             </main>
         )
     }
