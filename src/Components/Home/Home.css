@@ -24,6 +24,12 @@ html {
   background-color: white;
   opacity: 1;
   color: #d90932;
+	line-height: 20px;
+}
+.btn:hover {
+	border: 2px solid #fff;
+	background-color: #d90932;
+	color: white;
 }
 .main-section .background-image {
 	position: absolute;
