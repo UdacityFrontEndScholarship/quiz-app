@@ -10,19 +10,19 @@ class Footer extends Component {
 		return (
 			// <!--Footer-->
 			<footer>
-				{/* Write your HTML here */}
+				{/* Write your HTML here */
 
 
 				<div className="row container-fluid text-center">
 
-					<ul className="col-md-9 row footer__links align-items-center" style={{ listStyleType: 'none' }}>
-						<li className="col-md my-2" ><a href="#">Contact Us</a></li>
-						<li className="col-md my-2"><a href="#">Udacity</a></li>
-						<li className="col-md my-2"><a href="#">Github Repos</a></li>
-						<li className="col-md my-2"><a href="#">Contributors</a></li>
-						<li className="col-md my-2"><a href="#">Send Feedback</a></li>
-						<li className="col-md my-2"><a href="#">Privacy Terms</a></li>
-					</ul>
+					<div className="col-md-9 row footer__links align-items-center">
+						<div className="col-md my-2" ><a href="#">Contact Us</a></div>
+						<div className="col-md my-2"><a href="#">Udacity</a></div>
+						<div className="col-md my-2"><a href="#">Github Repos</a></div>
+						<div className="col-md my-2"><a href="#">Contributors</a></div>
+						<div className="col-md my-2"><a href="#">Send Feedback</a></div>
+						<div className="col-md my-2"><a href="#">Privacy Terms</a></div>
+					</div>
 
 					<div className="col-md-3 row social my-2 align-items-center d-flex justify-content-center">
 						<div className="footer__social d-flex justify-content-around">
@@ -36,12 +36,12 @@ class Footer extends Component {
 								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512" height="20px" width="20px"><path d="M386.061 228.496c1.834 9.692 3.143 19.384 3.143 31.956C389.204 370.205 315.599 448 204.8 448c-106.084 0-192-85.915-192-192s85.916-192 192-192c51.864 0 95.083 18.859 128.611 50.292l-52.126 50.03c-14.145-13.621-39.028-29.599-76.485-29.599-65.484 0-118.92 54.221-118.92 121.277 0 67.056 53.436 121.277 118.92 121.277 75.961 0 104.513-54.745 108.965-82.773H204.8v-66.009h181.261zm185.406 6.437V179.2h-56.001v55.733h-55.733v56.001h55.733v55.733h56.001v-55.733H627.2v-56.001h-55.733z" /></svg>
 							</a>
 						</div>
-											
+
 					</div>
 				</div>
-				
 
 
+}
 			</footer>
 
 		)
