@@ -7,6 +7,7 @@
 html {
 	font: normal 16px sans-serif;
 	color: #555;
+	width:100%;
 }
 .main-section {
 	position: relative;
@@ -36,20 +37,21 @@ html {
   background-image: linear-gradient(rgba(100,100,100,0.6), rgba(100,100,100,0.6)), url("https://i.imgur.com/efsiBNt.jpg");
 }
 
-.main-section h1 {
-  margin-top: 150px;
+.h1-responsive{
+  
 	font: bold 60px "Open Sans", sans-serif;
-	margin-bottom: 15px;
+	margin:0px;
 
 }
-
-.main-section h3 {
+h3-responsive {
 	font: normal 28px "Open Sans", sans-serif;
-	margin-bottom: 40px;
+	margin:0px;
+	line-height:30px;
 }
-.main-section h3 span {
+
+.h3-responsive span {
     border-bottom: 2px solid #d90932;
-    padding-bottom: 3px;
+    
 }
 
 .linespace{
@@ -73,9 +75,16 @@ html {
 	}
 }
 
+@media (max-width:1024px) {
+	.main-section {
+		display: table-cell;
+    padding-bottom: 100px;
+	}
+}
+
 @media (max-width: 800px) {
 	.main-section {
-		min-height: 600px;
+		min-height: 400px;
 	}
 
 	.main-section h1 {
@@ -128,7 +137,8 @@ html {
 }
 
 .col-content{
-	width: 49%;
+	height:100%;
+	width: 100%;
 }
 
 .content-area hr {
@@ -150,4 +160,37 @@ margin-bottom:50px;
 .content-area h1 {
   text-transform: uppercase;
   letter-spacing: 2px;
+}
+#main1 {
+	background-image: linear-gradient(rgba(100,100,100,0.6), rgba(100,100,100,0.6)), url("https://i.imgur.com/efsiBNt.jpg");
+	background-size: cover;
+	padding:0px;
+	z-index:1;
+}
+#main1 .container{
+	padding:0px;
+}
+#main1 .container .main-section{
+	margin-left:-100px;
+}
+#row-1-image{
+	height:100%;
+	width:103%;
+}
+.col-md-7, .col-md-5, .col-md-4, .col-md-6{
+	padding:0px;
+}
+@media only screen and (max-width: 767px) {
+	#reverseactive{
+		display: -webkit-flex;
+		display:flex;
+		flex-direction: row-reverse;
+		flex-direction: column-reverse;
+
+		justify-content: flex-end;
+	}
+	.content-area{
+		padding-top:100px;
+		padding-bottom: 100px;
+	}
 }
