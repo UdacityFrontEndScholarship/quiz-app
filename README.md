@@ -54,7 +54,15 @@ To know more about the above mentioned technologies, please refer to the project
 
 - [SignIn Page Detailed](https://github.com/parulbindal/quiz-app/blob/master/src/assets/images/Sign%20In%20Page%20Detailed.jpg?raw=true)
 
+<<<<<<< HEAD
+<<<<<<< HEAD
 * [Welcome Page](https://github.com/parulbindal/quiz-app/blob/master/src/assets/images/Welcome%20Page.png?raw=true)
+=======
+* [Welcome Page](https://raw.githubusercontent.com/parulbindal/quiz-app/master/src/assets/images/Welcome%20Page.png)
+>>>>>>> e889465... Welcome Page
+=======
+* [Welcome Page](https://github.com/parulbindal/quiz-app/blob/master/src/assets/images/Welcome%20Page.png?raw=true)
+>>>>>>> 03a9d23... Revised Welcome Page
 
 
 ### Data Model
