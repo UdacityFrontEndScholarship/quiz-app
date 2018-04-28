@@ -28,7 +28,6 @@ html {
 	line-height: 20px;
 }
 .btn:hover {
-	border: 2px solid #fff;
 	background-color: #d90932;
 	color: white;
 }
