@@ -20,9 +20,9 @@ class Home extends Component {
                      </div>
                      <div class="col-md-12"><div class="row"><br/></div></div>
                      <div class="col-md-12">
-                     <a href="#" className="btn btn-sm">Start Quiz</a>
+                     <a href="#" className="btn btn-sm start">Start Quiz</a>
                      </div>
-                      
+
                   </div>
               </section>
               </div>
@@ -40,9 +40,8 @@ class Home extends Component {
                         </div>
                       </div>
                     </div>
-                </div>    
                 </div>
-                
+                </div>
                 <div class="container-fluid">
                 <div class="row" >
                     <div class="col-md-6">
@@ -55,10 +54,8 @@ class Home extends Component {
                       </div>
                     </div>
                     <div class="col-md-6"><img src="https://i.imgur.com/9BWq0c7.jpg" id="row-1-image"/></div>
-
-                </div>    
                 </div>
-                
+                </div>
                 <div class="container-fluid">
                 <div class="row" id="reverseactive">
                 <div class="col-md-6"><img src="https://i.imgur.com/OaqZYmZ.jpg" id="row-1-image"/></div>
@@ -72,8 +69,7 @@ class Home extends Component {
                         </div>
                       </div>
                     </div>
-
-                </div>    
+                </div>
                 </div>
             </main>
         )
