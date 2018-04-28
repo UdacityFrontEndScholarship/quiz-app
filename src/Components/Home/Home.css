@@ -27,7 +27,18 @@ html {
   color: #d90932;
 	line-height: 20px;
 }
-.btn:hover {
+.start {
+	border: 2px solid #d90932;
+	border-radius: 40px;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-align: center;
+	background-color: white;
+	opacity: 1;
+	color: #d90932;
+	line-height: 20px;
+}
+.start:hover {
 	background-color: #d90932;
 	color: white;
 }

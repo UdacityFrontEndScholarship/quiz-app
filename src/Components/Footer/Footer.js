@@ -15,14 +15,14 @@ class Footer extends Component {
 
 				<div className="row container-fluid text-center">
 
-					<div className="col-md-9 row footer__links align-items-center">
-						<div className="col-md my-2" ><a href="#">Contact Us</a></div>
-						<div className="col-md my-2"><a href="#">Udacity</a></div>
-						<div className="col-md my-2"><a href="#">Github Repos</a></div>
-						<div className="col-md my-2"><a href="#">Contributors</a></div>
-						<div className="col-md my-2"><a href="#">Send Feedback</a></div>
-						<div className="col-md my-2"><a href="#">Privacy Terms</a></div>
-					</div>
+					<ul className="col-md-9 row footer__links  align-items-center d-flex flex-row justify-content-lg-center" >
+						<li className="col-md my-2 align-self-center" ><a href="#">Contact Us</a></li>
+						<li className="col-md my-2 align-self-center"><a href="#">Udacity</a></li>
+						<li className="col-md my-2 align-self-center"><a href="#">Github Repos</a></li>
+						<li className="col-md my-2 align-self-center"><a href="#">Contributors</a></li>
+						<li className="col-md my-2 align-self-center"><a href="#">Send Feedback</a></li>
+						<li className="col-md my-2 align-self-center"><a href="#">Privacy Terms</a></li>
+					</ul>
 
 					<div className="col-md-3 row social my-2 align-items-center d-flex justify-content-center">
 						<div className="footer__social d-flex justify-content-around">
@@ -39,8 +39,6 @@ class Footer extends Component {
 
 					</div>
 				</div>
-
-
 }
 			</footer>
 

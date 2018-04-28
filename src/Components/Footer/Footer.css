@@ -20,3 +20,6 @@ a {
 .footer__social {
     width: 60%;
 }
+ul{
+  list-style: none;
+}

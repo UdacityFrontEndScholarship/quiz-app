@@ -16,7 +16,7 @@ header li {
   margin-left: 65px;
 }
 
-li:first-of-type {
+#navbarNav li:first-of-type {
   margin-left: 0px;
 }
 
@@ -48,7 +48,7 @@ img {
   header li {
     margin: auto;
   }
-  li:first-of-type {
+#navbarNav li:first-of-type {
     margin: auto;
   }
 }
