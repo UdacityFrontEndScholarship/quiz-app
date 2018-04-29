@@ -4,7 +4,9 @@
   "private": true,
   "dependencies": {
     "bootstrap": "^4.0.0",
+    "express": "^4.16.3",
     "jquery": "^3.3.1",
+    "nodemon": "^1.17.3",
     "popper.js": "^1.14.3",
     "react": "^16.3.1",
     "react-bootstrap": "^0.32.1",
