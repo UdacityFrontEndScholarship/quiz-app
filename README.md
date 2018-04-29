@@ -51,6 +51,10 @@ For knowing more about these you can refer to our guidelines in which we have de
 
 - [Challenge Page](https://github.com/UdacityFrontEndScholarship/quiz-app/blob/master/src/assets/images/Challenge%20Page.jpg?raw=true)
 
+* [Challenge Page Detailed](https://github.com/parulbindal/quiz-app/blob/master/src/assets/images/Challenge%20Page%20Detailed.png?raw=true)
+
+- [Practice Page Detailed](https://github.com/parulbindal/quiz-app/blob/master/src/assets/images/Practice%20Page%20Detailed.png?raw=true)
+
 * [SignUp Page Detailed](https://github.com/parulbindal/quiz-app/blob/master/src/assets/images/Sign%20Up%20Page%20Detailed.jpg?raw=true)
 
 - [SignIn Page Detailed](https://github.com/parulbindal/quiz-app/blob/master/src/assets/images/Sign%20In%20Page%20Detailed.jpg?raw=true)
