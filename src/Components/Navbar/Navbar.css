@@ -45,7 +45,7 @@ li {
   header li {
     margin: auto;
   }
-  li:first-of-type {
+  #navbarTogglerDemo03 li {
     margin: auto;
   }
 }

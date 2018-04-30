@@ -15,13 +15,13 @@ class Footer extends Component {
 
 				<div className="row container-fluid text-center">
 
-					<ul className="col-md-9 row footer__links  align-items-center d-flex flex-row justify-content-lg-center" >
-						<li className="col-md my-2 align-self-center" ><a href="#">Contact Us</a></li>
-						<li className="col-md my-2 align-self-center"><a href="#">Udacity</a></li>
-						<li className="col-md my-2 align-self-center"><a href="#">Github Repos</a></li>
-						<li className="col-md my-2 align-self-center"><a href="#">Contributors</a></li>
-						<li className="col-md my-2 align-self-center"><a href="#">Send Feedback</a></li>
-						<li className="col-md my-2 align-self-center"><a href="#">Privacy Terms</a></li>
+					<ul className="col-md-9 row footer__links  align-items-center d-flex  justify-content-lg-center" >
+						<div className="col col-xs-12 col-sm-4 col-md-4 col-lg-2 col-xl-2"><li className="my-2 align-self-center"><a href="#">Contact</a></li></div>
+						<div className="col col-xs-12 col-sm-4 col-md-4 col-lg-2 col-xl-2"><li className="my-2 align-self-center"><a href="#">Udacity</a></li></div>
+						<div className="col col-xs-12 col-sm-4 col-md-4 col-lg-2 col-xl-2"><li className="my-2 align-self-center"><a href="#">Github</a></li></div>
+						<div className="col col-xs-12 col-sm-4 col-md-4 col-lg-2 col-xl-2"><li className="my-2 align-self-center"><a href="#">Contributors</a></li></div>
+						<div className="col col-xs-12 col-sm-4 col-md-4 col-lg-2 col-xl-2"><li className="my-2 align-self-center"><a href="#">Feedback</a></li></div>
+						<div className="col col-xs-12 col-sm-4 col-md-4 col-lg-2 col-xl-2"><li className="my-2 align-self-center"><a href="#">Privacy</a></li></div>
 					</ul>
 
 					<div className="col-md-3 row social my-2 align-items-center d-flex justify-content-center">

@@ -30,7 +30,8 @@ class Home extends Component {
                 <div className="container-fluid">
                 <div className="row" id="reverseactive">
                 <div className="col-md-6">
-                    <img src="https://i.imgur.com/azkKnMe.jpg" id="row-1-image"/></div>
+                    <img src="https://i.imgur.com/azkKnMe.jpg" id="row-1-image" alt="subjects" />
+                    </div>
                     <div className="col-md-6">
                     <div className="col-content">
                         <div className="content-area">
@@ -53,12 +54,12 @@ class Home extends Component {
                         </div>
                       </div>
                     </div>
-                    <div className="col-md-6"><img src="https://i.imgur.com/9BWq0c7.jpg" id="row-1-image"/></div>
+                    <div className="col-md-6"><img src="https://i.imgur.com/9BWq0c7.jpg" id="row-1-image" alt="challenge" /></div>
                 </div>
                 </div>
                 <div className="container-fluid">
                 <div className="row" id="reverseactive">
-                <div className="col-md-6"><img src="https://i.imgur.com/OaqZYmZ.jpg" id="row-1-image"/></div>
+                <div className="col-md-6"><img src="https://i.imgur.com/OaqZYmZ.jpg" id="row-1-image" alt="practice" /></div>
 
                     <div className="col-md-6">
                     <div className="col-content">

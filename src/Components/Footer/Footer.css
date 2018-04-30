@@ -20,6 +20,16 @@ a {
 .footer__social {
     width: 60%;
 }
-ul{
+
+.social-link {
+    padding: 0 !important;
+    margin: 0 1em;
+}
+
+.social {
+    margin: auto;
+}
+
+footer > div > ul li {
   list-style: none;
 }
