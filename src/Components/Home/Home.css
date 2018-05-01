@@ -9,14 +9,14 @@ html {
 	color: #555;
 	width:100%;
 }
-.main-section {
+#main1 .main-section {
 	position: relative;
 	justify-content: center;
 	text-align: left;
 	min-height: 100vh;
 	color: #fff;
 }
-.main-section .btn{
+#main1 .main-section .btn{
   border: 2px solid #d90932;
   border-radius: 40px;
   text-transform: uppercase;
@@ -26,7 +26,7 @@ html {
   opacity: 1;
   color: #d90932;
 }
-.start {
+#main1 .start {
 	border: 2px solid #d90932;
 	border-radius: 40px;
 	text-transform: uppercase;
@@ -37,11 +37,11 @@ html {
 	color: #d90932;
 	line-height: 20px;
 }
-.start:hover {
+#main1 .start:hover {
 	background-color: #d90932;
 	color: white;
 }
-.main-section .background-image {
+#main1 .main-section .background-image {
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -52,32 +52,31 @@ html {
   background-image: linear-gradient(rgba(100,100,100,0.6), rgba(100,100,100,0.6)), url("https://i.imgur.com/efsiBNt.jpg");
 }
 
-.h1-responsive{
+#main1 .h1-responsive{
 
 	font: bold 60px "Open Sans", sans-serif;
 	margin:0px;
 
 }
-h3-responsive {
+#main1 .h3-responsive {
 	font: normal 28px "Open Sans", sans-serif;
 	margin:0px;
 	line-height:30px;
 }
 
-.h3-responsive span {
+#main1 .h3-responsive span {
     border-bottom: 2px solid #d90932;
-
 }
 
-.linespace{
+#main1 .linespace{
 	padding-top: 5px;
 }
-.main-section a.btn {
+#main1 .main-section a.btn {
 	padding: 10px 30px;
   letter-spacing: 3px;
 }
 
-.main-content-area {
+#main1 .main-content-area {
 	opacity: 0;
 	margin-top: 100px;
 	animation: 1s slidefade 1s forwards;
@@ -91,65 +90,66 @@ h3-responsive {
 }
 
 @media (max-width:1024px) {
-	.main-section {
+	#main1 .main-section {
 		display: table-cell;
-    padding-bottom: 100px;
+    	padding-bottom: 100px;
 	}
 }
 
 @media (max-width: 800px) {
-	.main-section {
+	#main1 .main-section {
 		min-height: 400px;
 	}
 
-	.main-section h1 {
+	#main1 .main-section h1 {
 		font-size: 40px;
 	}
 
-	.main-section h3 {
+	#main1 .main-section h3 {
 		font-size: 20px;
 	}
 
-	.main-section a.btn {
+	#main1 .main-section a.btn {
 		padding: 10px 20px;
 	}
 
 }
 @media only screen and (max-width: 800px) {
-	section {
-		padding: 0px;
+  #main1 section {
+		padding: 0;
 	}
-  .content-area h1 {
+  #main1 .content-area h1 {
     font-size: 36px;
   }
 
-  .content-area h3 {
+  #main1 .content-area h3 {
 
     font-size: 20px;
   }
-  .content-area hr {
+  #main1 .content-area hr {
     margin: 0 auto;
   }
-  .content-image {
+  #main1 .content-image {
     min-width: 250px;
     min-height: 250px;
   }
 
 }
 
-.content-image {
+#main1 .content-image {
 	margin: 0;
 	padding: 0;
 	width: 100%;
 	height: 100%;
 }
 
-.col-image{
+/* Commented out as no col-image class found in Home.js */
+/* .col-image{
 	width:51%;
 	object-fit: cover;
 	margin:0;
 	padding: 0;
-}
+} */
 
 .col-content{
 	height:100%;

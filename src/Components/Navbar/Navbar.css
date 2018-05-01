@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
-.navLink {
+
+nav .navLink {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px;
   font-weight: normal;
@@ -10,15 +11,15 @@
   border-bottom: 2px solid white;
 }
 
-.navLink:hover,
-.navLink:active {
+nav .navLink:hover,
+nav .navLink:active {
   font-weight: bold;
   text-decoration: none;
   color: grey;
   border-bottom: 2px solid #ef8079;
 }
 
-.navLink:after {
+nav .navLink:after {
   display: block;
   content: attr(title);
   font-weight: bold;
@@ -27,13 +28,13 @@
   visibility: hidden;
 }
 
-img {
+#navbar img {
   width: 230px;
   padding: 0;
  
 }
 
-li {
+nav .navbar-nav li {
   margin-right: 30px;
   text-align: center;
   margin-left: 35px;
@@ -42,10 +43,9 @@ li {
 /* For screens below 768px */
 
 @media only screen and (max-width: 768px) {
-  header li {
+
+  nav #navbarTogglerDemo03 li {
     margin: auto;
   }
-  #navbarTogglerDemo03 li {
-    margin: auto;
-  }
+
 }

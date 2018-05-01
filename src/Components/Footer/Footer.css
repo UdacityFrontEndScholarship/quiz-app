@@ -1,35 +1,40 @@
 footer {
     background: #F1F2F4;
     color: white;
-    bottom: 0;
-    width: 100%;
     font-family: "Open Sans";
     font-size: 15px;
     padding: 10px;
 }
 
-.footer__links {
+footer .footer__links {
     margin: 0;
 }
 
-a {
+footer ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+footer ul li {
+    margin: 0;
+    padding: 0;
+}
+
+footer ul li a {
     color: #515B69;
     text-decoration: none !important;
 }
 
-.footer__social {
-    width: 60%;
+footer .footer__social {
+    vertical-align: middle;
 }
 
-.social-link {
-    padding: 0 !important;
+footer .social-link {
     margin: 0 1em;
+    padding: 0;
 }
 
-.social {
+footer .social {
     margin: auto;
-}
-
-footer > div > ul li {
-  list-style: none;
 }

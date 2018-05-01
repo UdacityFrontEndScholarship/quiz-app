@@ -35,7 +35,7 @@ class Home extends Component {
                     <div className="col-md-6">
                     <div className="col-content">
                         <div className="content-area">
-                          <h1>subjects</h1>
+                          <h1>Subjects</h1>
                           <hr />
                           <h3>Choose from our largest collection of subjects.</h3>
                         </div>
