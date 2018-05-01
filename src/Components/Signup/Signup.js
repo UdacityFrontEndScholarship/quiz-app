@@ -88,7 +88,7 @@ class Signup extends Component {
                                     <div className="google-btn-container form-group">
                                         <div className="form-row">
                                             <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                                                <button className="google-btn btn btn-light btn-block border-custom-color">
+                                                <button className="google-btn btn btn-light btn-light-white btn-block border-custom-color">
                                                     <svg
                                                         className="google"
                                                         id="google"
@@ -137,7 +137,7 @@ class Signup extends Component {
                                     <div className="github-btn-container form-group">
                                         <div className="form-row">
                                             <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                                                <button className="github-btn btn btn-light btn-block border-custom-color">
+                                                <button className="github-btn btn btn-light btn-light-white btn-block border-custom-color">
                                                     <svg
                                                         className="github"
                                                         xmlns="http://www.w3.org/2000/svg"

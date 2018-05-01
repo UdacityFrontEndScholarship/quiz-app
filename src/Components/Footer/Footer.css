@@ -17,13 +17,18 @@ footer ul {
 }
 
 footer ul li {
-    margin: 0;
+    margin: 0.3em auto;
     padding: 0;
 }
 
-footer ul li a {
+footer ul li a, 
+footer ul li a:visited {
     color: #515B69;
     text-decoration: none !important;
+}
+
+footer ul li a:hover {
+    color: #111;
 }
 
 footer .footer__social {

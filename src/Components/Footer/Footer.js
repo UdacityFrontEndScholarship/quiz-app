@@ -12,19 +12,19 @@ class Footer extends Component {
 			<footer>
 				{/* Write your HTML here */
 
-
+					
 					<div className="container-fluid">
 
 						<div className="row">
 
 							<div className="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-9 footer__links align-items-center justify-content my-2">
 								<ul className="text-center row">
-									<li className="col-xs-12 col-sm-12 col-md-4 col-lg-2"><a href="#">Contact</a></li>
+									<li className="col-xs-12 col-sm-12 col-md-4 col-lg-2"><a href="#">Contact Us</a></li>
 									<li className="col-xs-12 col-sm-12 col-md-4 col-lg-2"><a href="#">Udacity</a></li>
-									<li className="col-xs-12 col-sm-12 col-md-4 col-lg-2"><a href="#">GitHub</a></li>
+									<li className="col-xs-12 col-sm-12 col-md-4 col-lg-2"><a href="#">GitHub Repo</a></li>
 									<li className="col-xs-12 col-sm-12 col-md-4 col-lg-2"><a href="#">Contributors</a></li>
-									<li className="col-xs-12 col-sm-12 col-md-4 col-lg-2"><a href="#">Feedback</a></li>
-									<li className="col-xs-12 col-sm-12 col-md-4 col-lg-2"><a href="#">Privacy</a></li>
+									<li className="col-xs-12 col-sm-12 col-md-4 col-lg-2"><a href="#">Send Feedback</a></li>
+									<li className="col-xs-12 col-sm-12 col-md-4 col-lg-2"><a href="#">Privacy Terms</a></li>
 								</ul>
 							</div>
 							<div className="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 social my-2 align-items-center d-flex justify-content-center">
