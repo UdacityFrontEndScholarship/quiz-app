@@ -17,6 +17,10 @@ const app = express();
 //running the authentication routes
 require('./routes/authRoutes')(app);
 
+require('./routes/loginRoute')(app);
+require('./routes/logoutRoute')(app);
+require('./routes/signupRoute')(app);
+
 //assigning Port
 const PORT = process.env.PORT || "5000";
 
