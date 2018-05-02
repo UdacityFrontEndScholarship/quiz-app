@@ -1,4 +1,4 @@
-const userController = require('../controllers/userController');
+
 
 module.exports = app => {
     app.get('/', function (req, res, next) {
@@ -7,7 +7,7 @@ module.exports = app => {
         */
         res.send('Render home page/user dashboard after login here');
     });
-    app.post('/', functoin(req, res, next){
+    app.post('/', function(req, res, next){
 
     });
 }

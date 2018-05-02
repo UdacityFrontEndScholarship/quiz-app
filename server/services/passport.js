@@ -5,6 +5,17 @@ const keys = require('../config/keys');
 
 const User = mongoose.model('users');
 
+//Cookie time, serializing user
+
+passport.serializeUser((user, done) => {
+    done(null, user.id);
+});
+
+passport.deserializeUser((id, done) => {
+    User.findById(id).then(user => {
+        done(null, user);
+    });
+});
 passport.use(
     new GoogleStratgey({
         clientID: keys.googleClientID,
@@ -12,7 +23,7 @@ passport.use(
         callbackURL: "http://localhost:5000/auth/google/callback"
     }, 
     (accessToken, refreshToken, profile, done) => {
-        console.log(profile);
+        // console.log(profile);
         
         //async request, returns promise
         User.findOne({ googleId: profile.id })
