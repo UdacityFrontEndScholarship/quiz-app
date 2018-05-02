@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
-.navLink {
+header .navLink {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px;
   font-weight: normal;
@@ -16,19 +16,19 @@ header li {
   margin-left: 65px;
 }
 
-#navbarNav li:first-of-type {
+header #navbarNav li:first-of-type {
   margin-left: 0px;
 }
 
-.navLink:hover,
-.navLink:active {
+header .navLink:hover,
+header .navLink:active {
   font-weight: bold;
   text-decoration: none;
   color: grey;
   border-bottom: 2px solid #ef8079;
 }
 
-.navLink:after {
+header .navLink:after {
   display: block;
   content: attr(title);
   font-weight: bold;
@@ -37,7 +37,7 @@ header li {
   visibility: hidden;
 }
 
-img {
+header img {
   width: 230px;
   padding: 0;
 }
@@ -45,10 +45,13 @@ img {
 /* For everything below 768px*/
 
 @media only screen and (max-width: 768px) {
+
   header li {
     margin: auto;
   }
-#navbarNav li:first-of-type {
+
+  header #navbarNav li:first-of-type {
     margin: auto;
   }
+
 }

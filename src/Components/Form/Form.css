@@ -21,21 +21,21 @@
 }
 
 /* Font size of Sign In/Sign Up */
-.signup,
-.signin {
+.maincontainer .card .signup,
+.maincontainer .card .signin {
     font-size: 1.4em;
 }
 
 /* To keep the color of Sign In/Sign Up same in all conditions */
-a,
-a:visited,
-a:active,
-a:hover {
+.maincontainer .card a,
+.maincontainer .card a:visited,
+.maincontainer .card a:active,
+.maincontainer .card a:hover {
     color: #000;
 }
 
 /* To make Sign In and Sign Up (main switch tab buttons) (role=button) to go full width. text-center class was adding padding 15px to them */
-.text-center {
+.maincontainer .card .text-center {
     padding: 0;
 }
 
@@ -66,15 +66,15 @@ a:hover {
 }
 
 /* No default rounded corners/no border radius for form elements & hide any overflow */
-.btn,
-.form-input {
+.maincontainer .card .btn,
+.maincontainer .card .form-input {
     border-radius: 0;
     overflow: hidden;
     height: 3em;
 }
 
 /* Adds box shadow to the form */
-.card-header,
+.maincontainer .card .card-header,
 .card-body {
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.25);
 }
@@ -95,7 +95,8 @@ a:hover {
     background-color: white;
 }
 
-.btn-light {
+/* To make btn-light buttons background white */
+.btn-light-white {
     background-color: white;
 }
 

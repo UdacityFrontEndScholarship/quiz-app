@@ -43,7 +43,7 @@ class Signin extends Component {
                                     <div className="form-group">
                                         <button
                                             type="button"
-                                            className="btn btn-light btn-block border-custom-color"
+                                            className="btn btn-light btn-light-white btn-block border-custom-color"
                                         >
                                             <svg
                                                 className="google"
@@ -88,7 +88,7 @@ class Signin extends Component {
                                     <div className="form-group">
                                         <button
                                             type="button"
-                                            className="btn btn-light btn-block border-custom-color"
+                                            className="btn btn-light btn-light-white btn-block border-custom-color"
                                         >
                                             <svg
                                                 className="github"
