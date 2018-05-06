@@ -54,7 +54,7 @@ class Home extends Component {
                         </div>
                       </div>
                     </div>
-                    <div className="col-md-6"><img src="https://i.imgur.com/9BWq0c7.jpg" id="row-1-image" alt="challenge" /></div>
+                    <div className="col-md-6 image"><img src="https://i.imgur.com/9BWq0c7.jpg" id="row-1-image" alt="challenge" /></div>
                 </div>
                 </div>
                 <div className="container-fluid">
