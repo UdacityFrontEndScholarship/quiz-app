@@ -45,6 +45,7 @@ class Header extends Component {
       
       default:
       //user is logged in
+      //Add/modify code inside the return statement
         return (
         <ul>
           <li className="">
@@ -54,7 +55,6 @@ class Header extends Component {
     }
   }
   render() {
-    console.log(this.props, "here");
     return (
       // Header goes here
       <header>
@@ -92,8 +92,8 @@ class Header extends Component {
   }
 }
 
-function mapStateToProps(state){
-  return { auth : state.auth };
-}
+const mapStateToProps = state => (
+  { auth : state.auth }
+)
 
 export default connect(mapStateToProps)(Header);

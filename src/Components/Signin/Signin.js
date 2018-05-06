@@ -41,7 +41,7 @@ class Signin extends Component {
                                     </div>
 
                                     <div className="form-group">
-                                        <button
+                                        <a  href = "/auth/google"
                                             type="button"
                                             className="btn btn-light btn-light-white btn-block border-custom-color"
                                         >
@@ -82,7 +82,7 @@ class Signin extends Component {
                                                 </g>
                                             </svg>
                                             &nbsp; Sign In with Google
-                                        </button>
+                                        </a>
                                     </div>
 
                                     <div className="form-group">
