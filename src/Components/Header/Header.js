@@ -1,12 +1,60 @@
 import React, { Component } from 'react';
+import { connect } from 'react-redux';
 import 'bootstrap/dist/css/bootstrap.css';
+
 import $ from 'jquery';
 import 'bootstrap/dist/js/bootstrap.js';
 import './Header.css';
 import logo from '../../assets/images/skillup logo.jpg';
 
 class Header extends Component {
+  renderContent(){
+    switch (this.props.auth){
+      //when the app loads up
+      case null:
+        return "Still deciding";
+      case false:
+        //when the user is logged out  
+        return (<ul className="navbar-nav ml-auto">
+        <li className="">
+          <a className="navLink" href="#" title="How To Play">
+            How To Play <span className="" />
+          </a>
+        </li>
+
+        {/* Add padding (preferably left) for these list items for proper spacing */}
+        <li className="">
+          <a className="navLink" href="#" title="Leaderboard">
+            Leaderboard
+          </a>
+        </li>
+
+        <li className="">
+          <a className="navLink" href="#" title="Practice">
+            Practice
+          </a>
+        </li>
+    
+        <li className="">
+          <a className="navLink" href="#" title="Log In">
+            Log In
+          </a>
+        </li>
+      </ul>);
+      
+      
+      default:
+      //user is logged in
+        return (
+        <ul>
+          <li className="">
+          <img style = {{"width": "40px"}} src = {this.props.auth.image} className="rounded float-right" />
+          </li>
+        </ul>)
+    }
+  }
   render() {
+    console.log(this.props, "here");
     return (
       // Header goes here
       <header>
@@ -33,32 +81,9 @@ class Header extends Component {
             </button>
 
             <div className="collapse navbar-collapse" id="navbarNav">
-              <ul className="navbar-nav ml-auto">
-                <li className="">
-                  <a className="navLink" href="#" title="How To Play">
-                    How To Play <span className="" />
-                  </a>
-                </li>
+              
+            {this.renderContent()}
 
-                {/* Add padding (preferably left) for these list items for proper spacing */}
-                <li className="">
-                  <a className="navLink" href="#" title="Leaderboard">
-                    Leaderboard
-                  </a>
-                </li>
-
-                <li className="">
-                  <a className="navLink" href="#" title="Practice">
-                    Practice
-                  </a>
-                </li>
-
-                <li className="">
-                  <a className="navLink" href="#" title="Log In">
-                    Log In
-                  </a>
-                </li>
-              </ul>
             </div>
           </nav>
         </div>
@@ -67,4 +92,8 @@ class Header extends Component {
   }
 }
 
-export default Header;
+function mapStateToProps(state){
+  return { auth : state.auth };
+}
+
+export default connect(mapStateToProps)(Header);

@@ -23,7 +23,8 @@ passport.use(
         callbackURL: "http://localhost:5000/auth/google/callback"
     }, 
     async (accessToken, refreshToken, profile, done) => {
-        // console.log(profile);
+        console.log(profile);
+        console.log(profile.photos);
         
         //async request, returns promise
         const existingUser = await User.findOne({ googleId: profile.id })
@@ -32,7 +33,15 @@ passport.use(
             return done(null, existingUser);
         }
         //if the user doesnt exists, create a new instance
-        const user = await new User({ googleId: profile.id }).save();
+        const user = await new User({ 
+            googleId: profile.id,
+            gender: profile.gender,
+            fullName: profile.displayName,
+            firstName : profile.name.givenName,
+            lastName : profile.name.familyName,
+            image : profile.photos[0].value,
+            email : profile.emails[0].value
+        }).save();
         done(null, user);
     })
 );

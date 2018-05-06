@@ -9,7 +9,13 @@ module.exports = app => {
     );
 
     //after the request is sucessful from the oauth
-    app.get('/auth/google/callback', passport.authenticate('google'));
+    app.get(
+        '/auth/google/callback', 
+        passport.authenticate('google'),
+        (req, res) => {
+            res.redirect('/dashboard');
+        }
+    );
 
 
     app.get('/api/logout', (req, res)=> {
