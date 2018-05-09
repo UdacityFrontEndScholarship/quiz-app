@@ -13,7 +13,11 @@ header .navLink {
 
 header li {
   text-align: center;
-  margin-left: 65px;
+  margin-left: 50px;
+  margin-right: 30px;
+  list-style-type: none;
+  display: inline-block;
+  padding-top: 20px;
 }
 
 header #navbarNav li:first-of-type {
@@ -39,7 +43,25 @@ header .navLink:after {
 
 header img {
   width: 230px;
+  padding: 5px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.content {
+  margin-top: 20px; 
+}
+
+.navbar-nav > li > .dropdown-menu .dropdown-item {
+  padding-left: 10px;
+}
+.navbar-nav > li > .dropdown-menu { 
+  background-color: #F1F2F4;
+  min-width: 95px !important;
+  max-width: 0;
+  max-height: 60px;
   padding: 0;
+  margin: 0 auto;
 }
 
 /* For everything below 768px*/
@@ -48,6 +70,7 @@ header img {
 
   header li {
     margin: auto;
+    list-style-type: none;
   }
 
   header #navbarNav li:first-of-type {
@@ -55,3 +78,4 @@ header img {
   }
 
 }
+
