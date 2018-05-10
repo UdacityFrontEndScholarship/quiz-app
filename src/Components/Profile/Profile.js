@@ -57,9 +57,10 @@ class Profile extends Component {
             
             <div className="row">
                 <div className="col-xs-12 col-sm-4 col-md-3 col-lg-2 text-center">
-                <label className="user_profile">
+                <input type="file" name="profile_picture" id="profile" />
+                <label htmlFor="profile" className="user_profile">
                     <img  src="https://media.creativemornings.com/uploads/user/avatar/89900/Profile_picture_square.jpg" />
-                    <div className="Custom_overlay"></div>
+                    <div className="Custom_overlay">Change Image</div>
                 </label>
                 <label className="user_full_name">User Full name</label>
                 <strong className="user_public_name">username</strong>
