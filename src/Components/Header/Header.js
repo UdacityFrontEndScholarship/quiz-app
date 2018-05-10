@@ -48,31 +48,28 @@ class Header extends Component {
       //user is logged in
       //Add/modify code inside the return statement
         return (
-        
-        <ul className="nav navbar-nav ml-auto mt-2 mt-lg-0">
-        <div className="content">
-        <li className="nav-item"> 
+        <ul className="nav navbar-nav ml-auto mt-5 mt-lg-0">
+        <li className="nav-item order-1 p-2"> 
           <a className="navLink" href="#" title="Dashboard">
             Dashboard 
           </a>
         </li>
-        <li className="nav-item">
+        <li className="nav-item order-2 p-2">
           <a className="navLink" href="#" title="How To Play">
             How To Play 
           </a>
         </li>
-        <li className="nav-item">
+        <li className="nav-item order-3 p-2">
           <a className="navLink" href="#" title="Challenge">
             Challenge 
           </a>
         </li>
-        <li className="nav-item">
+        <li className="nav-item order-4 p-2">
           <a className="navLink" href="#" title="Practice">
             Practice 
           </a>
         </li>
-        </div>
-        <li className="nav-item dropdown">
+        <li className="nav-item dropdown order-5 p-0">
          <a href="" className="nav-link dropdown-toggle" id="navDropDownLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           <img style = {{"width": "40px"}} src = {this.props.auth.image} className="rounded-circle profile-image" alt="" />
           <span className="caret"></span>         
@@ -83,6 +80,8 @@ class Header extends Component {
           </div>
         </li>
         </ul>
+        
+          
         )
     }
   }
@@ -93,9 +92,9 @@ class Header extends Component {
         {/* Adding container-fluid div to contain navbar*/}
 
         <div className="container-fluid">
-          <nav className="navbar navbar-expand-md navbar-light sticky-top" id="navbar">
+          <nav className="navbar navbar-expand-xl navbar-light sticky-top" id="navbar">
             {/* Remove text and add Logo image path later */}
-            <a className="navbar-brand" href="">
+            <a className="navbar-brand" href="#">
               <img alt="SKILL UP logo" src={logo} />
             </a>
 
@@ -104,15 +103,15 @@ class Header extends Component {
               className="navbar-toggler"
               type="button"
               data-toggle="collapse"
-              data-target="#navbarNav"
-              aria-controls="navbarNav"
+              data-target="#navbarTogglerDemo03"
+              aria-controls="navbarTogglerDemo03"
               aria-expanded="false"
               aria-label="Toggle navigation"
             >
               <span className="navbar-toggler-icon" />
             </button>
 
-            <div className="collapse navbar-collapse flex-row-reverse" id="navbarNav">
+            <div className="collapse navbar-collapse flex-row-reverse" id="navbarTogglerDemo03">
               
             {this.renderContent()}
 
