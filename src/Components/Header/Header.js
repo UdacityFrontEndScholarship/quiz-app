@@ -7,6 +7,7 @@ import 'bootstrap/dist/js/bootstrap.js';
 import './Header.css';
 import logo from '../../assets/images/skillup logo.jpg';
 
+
 class Header extends Component {
   renderContent(){
     switch (this.props.auth){
@@ -42,16 +43,46 @@ class Header extends Component {
         </li>
       </ul>);
       
-      
+       
       default:
       //user is logged in
       //Add/modify code inside the return statement
         return (
-        <ul>
-          <li className="">
-          <img style = {{"width": "40px"}} src = {this.props.auth.image} className="rounded float-right" />
-          </li>
-        </ul>)
+        <ul className="nav navbar-nav ml-auto mt-5 mt-lg-0">
+        <li className="nav-item order-1 p-2"> 
+          <a className="navLink" href="#" title="Dashboard">
+            Dashboard 
+          </a>
+        </li>
+        <li className="nav-item order-2 p-2">
+          <a className="navLink" href="#" title="How To Play">
+            How To Play 
+          </a>
+        </li>
+        <li className="nav-item order-3 p-2">
+          <a className="navLink" href="#" title="Challenge">
+            Challenge 
+          </a>
+        </li>
+        <li className="nav-item order-4 p-2">
+          <a className="navLink" href="#" title="Practice">
+            Practice 
+          </a>
+        </li>
+        <li className="nav-item dropdown order-5 p-0">
+         <a href="" className="nav-link dropdown-toggle" id="navDropDownLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <img style = {{"width": "40px"}} src = {this.props.auth.image} className="rounded-circle profile-image" alt="" />
+          <span className="caret"></span>         
+          </a>
+          <div className="dropdown-menu dropcontent" aria-labelledby="navDropDownLink">
+                        <a className="dropdown-item" href="#">Settings</a>
+                        <a className="dropdown-item" href="#">Sign Out</a>
+          </div>
+        </li>
+        </ul>
+        
+          
+        )
     }
   }
   render() {
@@ -61,7 +92,7 @@ class Header extends Component {
         {/* Adding container-fluid div to contain navbar*/}
 
         <div className="container-fluid">
-          <nav className="navbar navbar-expand-md navbar-light">
+          <nav className="navbar navbar-expand-xl navbar-light sticky-top" id="navbar">
             {/* Remove text and add Logo image path later */}
             <a className="navbar-brand" href="#">
               <img alt="SKILL UP logo" src={logo} />
@@ -72,15 +103,15 @@ class Header extends Component {
               className="navbar-toggler"
               type="button"
               data-toggle="collapse"
-              data-target="#navbarNav"
-              aria-controls="navbarNav"
+              data-target="#navbarTogglerDemo03"
+              aria-controls="navbarTogglerDemo03"
               aria-expanded="false"
               aria-label="Toggle navigation"
             >
               <span className="navbar-toggler-icon" />
             </button>
 
-            <div className="collapse navbar-collapse" id="navbarNav">
+            <div className="collapse navbar-collapse flex-row-reverse" id="navbarTogglerDemo03">
               
             {this.renderContent()}
 
@@ -91,7 +122,7 @@ class Header extends Component {
     );
   }
 }
-
+ 
 const mapStateToProps = state => (
   { auth : state.auth }
 )

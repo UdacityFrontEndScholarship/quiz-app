@@ -1,57 +1,80 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 header .navLink {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 18px;
-  font-weight: normal;
-  color: grey !important;
-  padding-bottom: 10px;
-  text-decoration: none;
-  display: inline-block;
-  border-bottom: 2px solid white;
-  /* To avoid text from moving upwards when red border is made visible*/
+font-family: 'Open Sans', sans-serif;
+font-size: 18px;
+font-weight: normal;
+color: grey !important;
+padding-bottom: 10px;
+text-decoration: none;
+display: inline-block;
+border-bottom: 2px solid white;
+/* To avoid text from moving upwards when red border is made visible*/
 }
 
+
+
 header li {
-  text-align: center;
-  margin-left: 65px;
+text-align: center;
+margin-left: 50px;
+margin-right: 30px;
+list-style-type: none;
+display: inline-block;
+padding-top: 20px;
 }
 
 header #navbarNav li:first-of-type {
-  margin-left: 0px;
+margin-left: 0px;
 }
 
 header .navLink:hover,
 header .navLink:active {
-  font-weight: bold;
-  text-decoration: none;
-  color: grey;
-  border-bottom: 2px solid #ef8079;
+font-weight: bold;
+text-decoration: none;
+color: grey;
+border-bottom: 2px solid #ef8079;
 }
 
 header .navLink:after {
-  display: block;
-  content: attr(title);
-  font-weight: bold;
-  height: 0;
-  overflow: hidden;
-  visibility: hidden;
+display: block;
+content: attr(title);
+font-weight: bold;
+height: 0;
+overflow: hidden;
+visibility: hidden;
 }
 
 header img {
-  width: 230px;
-  padding: 0;
+width: 230px;
+padding: 0;
 }
+
+
+
+.navbar-nav > li > .dropdown-menu .dropdown-item {
+padding-left: 10px;
+}
+.navbar-nav > li > .dropdown-menu { 
+background-color: #F1F2F4;
+min-width: 95px !important;
+max-width: 0;
+max-height: 60px;
+padding: 0;
+margin: 0 auto;
+}
+
 
 /* For everything below 768px*/
 
 @media only screen and (max-width: 768px) {
 
-  header li {
-    margin: auto;
-  }
+header li {
+margin: auto;
+list-style-type: none;
+}
 
-  header #navbarNav li:first-of-type {
-    margin: auto;
-  }
+header #navbarNav li:first-of-type {
+margin: auto;
+}
 
 }
+
