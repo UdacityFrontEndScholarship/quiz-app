@@ -94,7 +94,7 @@ class Header extends Component {
         <div className="container-fluid">
           <nav className="navbar navbar-expand-xl navbar-light sticky-top" id="navbar">
             {/* Remove text and add Logo image path later */}
-            <a className="navbar-brand" href="#">
+            <a className="navbar-brand" href="../">
               <img alt="SKILL UP logo" src={logo} />
             </a>
 
